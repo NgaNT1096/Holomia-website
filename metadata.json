@@ -1,0 +1,6 @@
+{
+  "name": "Holomia — Hạ tầng Vận hành Thực tế ảo Thương mại",
+  "description": "Holomia cung cấp nền tảng lõi điều phối thực tế ảo đa người dùng (1 Tablet điều khiển 100 kính), phục vụ sự kiện lưu lượng lớn, điểm đến thương mại và số hóa di sản tại Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
