@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { CustomCards, SpecGrid } from '../components/DataLists';
 import { Tx } from '../lib/editor';
 import { useCms  } from '../lib/cms';
@@ -20,6 +21,7 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({
   onNavigate,
   onOpenModal,
 }) => {
+  const tr = useTr();
   const { eventPackages: EVENT_PACKAGES } = useCms();
   const scrollToRoi = () => {
     const el = document.getElementById('venue-roi-calculator');
@@ -319,7 +321,7 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({
                 <div className="rounded-xl overflow-hidden border border-slate-200 mt-4">
                   <ResilientImage
                     src={IMAGES.floorplanBlueprint}
-                    alt="Sơ đồ bố trí mặt bằng Holomia Venue"
+                    alt={tr('Sơ đồ bố trí mặt bằng Holomia Venue', 'Holomia Venue layout')}
                     className="w-full h-48 object-cover"
                   />
                 </div>
@@ -383,7 +385,7 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({
                 >
                   <ResilientImage
                     src={IMAGES.thumbVenue}
-                    alt="Mô hình sàn giải trí không dây trong trung tâm thương mại"
+                    alt={tr('Mô hình sàn giải trí không dây trong trung tâm thương mại', 'Wireless entertainment floor in a shopping mall')}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-[#0B0F19]/40 to-transparent" />

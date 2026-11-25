@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { AddItem, GlobalSection, Item, SectionData, T, useItems } from '../lib/editor';
 import { Tx } from '../lib/editor';
 import { useCms } from '../lib/cms';
@@ -41,6 +42,7 @@ const Locations: React.FC<{ section: SectionData }> = ({ section }) => {
 };
 
 export const ShowroomPage: React.FC = () => {
+  const tr = useTr();
   return (
     <div>
       <section className="bg-[#0B0F19] border-b border-white/10 py-14">
@@ -70,7 +72,7 @@ export const ShowroomPage: React.FC = () => {
             <div className="rounded-2xl overflow-hidden border border-white/15 h-[300px] sm:h-[360px]">
               <ResilientImage
                 src={IMAGES.showroomLab}
-                alt="Showroom Mẫu Holomia Living Lab"
+                alt={tr('Showroom Mẫu Holomia Living Lab', 'Holomia Living Lab showroom')}
                 className="w-full h-full object-cover"
               />
             </div>

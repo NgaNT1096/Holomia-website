@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { Tx } from '../lib/editor';
 import { submitLead, useCms, useLocalized  } from '../lib/cms';
 import { MODAL_CONFIG as MODAL_CONFIG_RAW } from '../data/holomiaData';
@@ -16,6 +17,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
   onClose,
   contextSummary,
 }) => {
+  const tr = useTr();
   const { t } = useCms();
   const MODAL_CONFIG = useLocalized(MODAL_CONFIG_RAW, 'MODAL_CONFIG');
   const [name, setName] = useState('');
@@ -32,12 +34,12 @@ export const LeadModal: React.FC<LeadModalProps> = ({
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name.trim() || !phone.trim() || !email.trim()) {
-      setError('Vui lòng điền đầy đủ Họ tên, Số điện thoại/Zalo và Email công việc.');
+      setError(tr('Vui lòng điền đầy đủ Họ tên, Số điện thoại/Zalo và Email công việc.', 'Please enter your full name, phone / Zalo and work email.'));
       return;
     }
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email.trim())) {
-      setError('Địa chỉ email chưa đúng định dạng.');
+      setError(tr('Địa chỉ email chưa đúng định dạng.', 'That email address does not look valid.'));
       return;
     }
     setError('');
@@ -45,7 +47,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
       tag: config.tag, name, phone, email, company, message: contextSummary,
     });
     if (!ok) {
-      setError('Gửi không thành công, vui lòng thử lại sau.');
+      setError(tr('Gửi không thành công, vui lòng thử lại sau.', 'Sending failed, please try again later.'));
       return;
     }
     setSubmitted(true);
@@ -77,7 +79,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
         {!submitted ? (
           <>
             <div className="text-xs font-medium text-[#00E5FF] mb-2">
-              Tài liệu B2B · {config.salesTeam}
+              {tr('Tài liệu B2B', 'B2B documents')} · {config.salesTeam}
             </div>
             <h2
               id="lead-modal-title"
@@ -92,7 +94,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
             {contextSummary && (
               <div className="mt-4 px-3.5 py-2.5 rounded-lg bg-[#0B0F19] border border-white/10 text-xs text-slate-300 flex items-center gap-2">
                 <FileText className="w-4 h-4 text-[#00E5FF] shrink-0" />
-                <span>Cấu hình đính kèm: {contextSummary}</span>
+                <span>{tr('Cấu hình đính kèm', 'Attached configuration')}: {contextSummary}</span>
               </div>
             )}
 

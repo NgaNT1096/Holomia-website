@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { FootprintConfigurator, ShiftReport, SpecGrid } from '../components/DataLists';
 import { Tx } from '../lib/editor';
 import React, { useState } from 'react';
@@ -16,6 +17,7 @@ export const PlatformPage: React.FC<PlatformPageProps> = ({
   onNavigate,
   onOpenModal,
 }) => {
+  const tr = useTr();
   const [selectedPeriod, setSelectedPeriod] = useState<'today' | 'week'>('today');
   const multiplier = selectedPeriod === 'today' ? 1 : 7;
 
@@ -55,7 +57,7 @@ export const PlatformPage: React.FC<PlatformPageProps> = ({
             <div className="rounded-2xl overflow-hidden border border-white/15 h-[280px] sm:h-[340px]">
               <ResilientImage
                 src={IMAGES.hardwareKit}
-                alt="Bộ thiết bị kính VR và Tablet Holomia Platform"
+                alt={tr('Bộ thiết bị kính VR và Tablet Holomia Platform', 'Holomia VR headsets and tablet')}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -82,7 +84,7 @@ export const PlatformPage: React.FC<PlatformPageProps> = ({
             <div className="lg:col-span-7 rounded-2xl overflow-hidden border border-white/15 bg-[#0B0F19] min-h-[260px]">
               <ResilientImage
                 src={IMAGES.floorplanBlueprint}
-                alt="Sơ đồ mặt bằng sàn đấu VR không dây chuẩn Holomia"
+                alt={tr('Sơ đồ mặt bằng sàn đấu VR không dây chuẩn Holomia', 'Floor plan of a wireless Holomia VR arena')}
                 className="w-full h-full object-cover"
               />
             </div>

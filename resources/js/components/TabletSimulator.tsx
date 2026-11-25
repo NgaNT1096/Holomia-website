@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { Tx } from '../lib/editor';
 import React, { useState } from 'react';
 import { useCms, useLocalized  } from '../lib/cms';
@@ -6,6 +7,7 @@ import { PLATFORM_MODES as PLATFORM_MODES_RAW } from '../data/holomiaData';
 import { PlatformModeId } from '../types/holomia';
 
 export const TabletSimulator: React.FC = () => {
+  const tr = useTr();
   const { t } = useCms();
   const PLATFORM_MODES = useLocalized(PLATFORM_MODES_RAW, 'PLATFORM_MODES');
   const [mode, setMode] = useState<PlatformModeId>('journey');
@@ -24,10 +26,10 @@ export const TabletSimulator: React.FC = () => {
   };
 
   const stepActionLabels = [
-    `Xác nhận giao ${currentMode.headsetCount} kính`,
-    'Bắt đầu phiên',
-    'Chuyển xoay vòng',
-    'Đón lượt mới',
+    tr(`Xác nhận giao ${currentMode.headsetCount} kính`, `Confirm ${currentMode.headsetCount} headsets handed out`),
+    tr('Bắt đầu phiên', 'Start session'),
+    tr('Chuyển xoay vòng', 'Move to rotation'),
+    tr('Đón lượt mới', 'Welcome next group'),
   ];
 
   const nodeCount = currentMode.headsetCount;

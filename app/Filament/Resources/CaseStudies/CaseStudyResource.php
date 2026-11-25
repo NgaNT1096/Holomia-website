@@ -5,6 +5,7 @@ namespace App\Filament\Resources\CaseStudies;
 use App\Filament\Resources\CaseStudies\Pages\ManageCaseStudies;
 use App\Models\CaseStudy;
 use BackedEnum;
+use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\TagsInput;
 use Filament\Forms\Components\Select;
@@ -53,12 +54,23 @@ class CaseStudyResource extends Resource
                         FileUpload::make('path')->label('Ảnh')->image()->disk('public')->directory('uploads')
                             ->acceptedFileTypes(['image/jpeg','image/png','image/webp'])->maxSize(5120)->imageEditor()->required(),
                         TextInput::make('alt')->label('Mô tả ảnh (alt) — tuỳ chọn')->maxLength(200),
+                        TextInput::make('alt_en')->label('Alt tiếng Anh — tuỳ chọn')->maxLength(200),
                     ])->reorderableWithDragAndDrop()->collapsible()->itemLabel(fn (array $state): ?string => $state['alt'] ?? null)
                     ->defaultItems(0)->addActionLabel('Thêm ảnh')->columnSpanFull(),
                 Select::make('featured_span')->label('Kích thước thẻ')->options(['standard'=>'Thường','wide'=>'Rộng'])->default('standard')->required(),
                 Textarea::make('problem')->label('Vấn đề')->rows(4)->columnSpanFull(),
                 Textarea::make('solution')->label('Giải pháp')->rows(4)->columnSpanFull(),
                 TagsInput::make('results')->label('Kết quả (Enter để thêm)')->columnSpanFull(),
+                Section::make('Tiếng Anh (bỏ trống = hiện tiếng Việt)')->collapsible()->collapsed()->columnSpanFull()->schema([
+                    TextInput::make('en.title')->label('Title'),
+                    TextInput::make('en.category_label')->label('Category label'),
+                    TextInput::make('en.subtitle')->label('Subtitle'),
+                    TextInput::make('en.location')->label('Location'),
+                    TextInput::make('en.headline_metric')->label('Headline metric'),
+                    Textarea::make('en.problem')->label('Problem')->rows(3),
+                    Textarea::make('en.solution')->label('Solution')->rows(3),
+                    TagsInput::make('en.results')->label('Results'),
+                ]),
                 TextInput::make('sort')->label('Thứ tự')->numeric()->default(0),
                 Toggle::make('is_published')->label('Hiển thị')->default(true),
             ]);

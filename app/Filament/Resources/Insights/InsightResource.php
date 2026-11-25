@@ -5,6 +5,7 @@ namespace App\Filament\Resources\Insights;
 use App\Filament\Resources\Insights\Pages\ManageInsights;
 use App\Models\Insight;
 use BackedEnum;
+use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\TagsInput;
@@ -50,10 +51,20 @@ class InsightResource extends Resource
                         FileUpload::make('path')->label('Ảnh')->image()->disk('public')->directory('uploads')
                             ->acceptedFileTypes(['image/jpeg','image/png','image/webp'])->maxSize(5120)->imageEditor()->required(),
                         TextInput::make('alt')->label('Mô tả ảnh (alt) — tuỳ chọn')->maxLength(200),
+                        TextInput::make('alt_en')->label('Alt tiếng Anh — tuỳ chọn')->maxLength(200),
                     ])->reorderableWithDragAndDrop()->collapsible()->itemLabel(fn (array $state): ?string => $state['alt'] ?? null)
                     ->defaultItems(0)->addActionLabel('Thêm ảnh')->columnSpanFull(),
                 TagsInput::make('key_takeaways')->label('Ý chính')->columnSpanFull(),
                 Repeater::make('body')->label('Nội dung (các đoạn)')->simple(Textarea::make('p')->rows(3)->required())->columnSpanFull(),
+                Section::make('Tiếng Anh (bỏ trống = hiện tiếng Việt)')->collapsible()->collapsed()->columnSpanFull()->schema([
+                    TextInput::make('en.title')->label('Title'),
+                    TextInput::make('en.category')->label('Category'),
+                    TextInput::make('en.read_time')->label('Read time'),
+                    TextInput::make('en.date_label')->label('Date'),
+                    Textarea::make('en.summary')->label('Summary')->rows(3),
+                    TagsInput::make('en.key_takeaways')->label('Key takeaways'),
+                    Repeater::make('en.body')->label('Body (paragraphs)')->simple(Textarea::make('p')->rows(3)->required())->defaultItems(0),
+                ]),
                 TextInput::make('sort')->label('Thứ tự')->numeric()->default(0),
                 Toggle::make('is_published')->label('Hiển thị')->default(true),
             ]);

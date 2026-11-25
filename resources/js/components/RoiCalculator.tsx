@@ -1,3 +1,4 @@
+import { useNumberLocale, useTr } from '../lib/locale';
 import { Tx } from '../lib/editor';
 import React, { useState, useMemo } from 'react';
 import { useCms } from '../lib/cms';
@@ -12,6 +13,8 @@ export const RoiCalculator: React.FC<RoiCalculatorProps> = ({
   onRequestExcel,
   showExtendedChart = false,
 }) => {
+  const tr = useTr();
+  const numberLocale = useNumberLocale();
   const { t } = useCms();
   const [headsets, setHeadsets] = useState<number>(10);
   const [ticketPrice, setTicketPrice] = useState<number>(100000);
@@ -49,9 +52,9 @@ export const RoiCalculator: React.FC<RoiCalculatorProps> = ({
   }, [headsets, ticketPrice, operatingDays, occupancyRate, partnerShare]);
 
   const formatVnd = (amount: number) =>
-    amount.toLocaleString('vi-VN') + ' đ';
+    amount.toLocaleString(numberLocale) + tr(' đ', ' VND');
 
-  const summaryText = `${headsets} kính · Vé ${formatVnd(ticketPrice)} · Doanh thu ${formatVnd(metrics.monthlyGrossRevenue)}/tháng · Hoàn vốn ~${metrics.paybackMonths} tháng`;
+  const summaryText = `${headsets} ${tr('kính', 'headsets')} · ${tr('Vé', 'Ticket')} ${formatVnd(ticketPrice)} · ${tr('Doanh thu', 'Revenue')} ${formatVnd(metrics.monthlyGrossRevenue)}${tr('/tháng', '/month')} · Hoàn vốn ~${metrics.paybackMonths} {tr('tháng', 'months')}`;
 
   return (
     <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm text-slate-900">
@@ -63,7 +66,7 @@ export const RoiCalculator: React.FC<RoiCalculatorProps> = ({
               <Tx k="roi.001" d={"Số lượng kính"} />
             </label>
             <span className="text-base font-bold font-mono-num text-[#0B0F19]">
-              {headsets} kính
+              {headsets} {tr('kính', 'headsets')}
             </span>
           </div>
           <input
@@ -104,9 +107,9 @@ export const RoiCalculator: React.FC<RoiCalculatorProps> = ({
             className="holomia-slider"
           />
           <div className="flex justify-between text-xs text-slate-400 font-mono-num mt-1">
-            <span>80.000 đ</span>
-            <span>115.000 đ</span>
-            <span>150.000 đ</span>
+            <span>{formatVnd(80000)}</span>
+            <span>{formatVnd(115000)}</span>
+            <span>{formatVnd(150000)}</span>
           </div>
         </div>
 
@@ -174,7 +177,7 @@ export const RoiCalculator: React.FC<RoiCalculatorProps> = ({
           <div>
             <div className="text-xs font-medium text-slate-500"><Tx k="roi.013" d={"Hoàn vốn dự kiến"} /></div>
             <div className="text-2xl sm:text-3xl font-extrabold font-mono-num text-[#0B0F19] mt-1">
-              {metrics.paybackMonths} tháng
+              {metrics.paybackMonths} {tr('tháng', 'months')}
             </div>
           </div>
         </div>

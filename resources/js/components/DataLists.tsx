@@ -1,3 +1,4 @@
+import { useNumberLocale } from '../lib/locale';
 import React, { useState } from 'react';
 import { AddItem, GlobalSection, ImageControl, Item, ItemScope, ItemTools, SectionData, SectionImg, T, useEditor, useField, useItems } from '../lib/editor';
 import { resolve, Tx } from '../lib/editor';
@@ -100,14 +101,15 @@ export const SpecGrid: React.FC<{ className?: string }> = ({ className = 'grid g
 
 const Report: React.FC<{ section: SectionData; multiplier: number }> = ({ section, multiplier }) => {
   const { editing, locale } = useEditor();
+  const numberLocale = useNumberLocale();
   const rows = useItems(section, 'shift');
-  const num = (v: string) => Number(v.replace(/[^0-9]/g, '')) || 0;
+  const num = (v: string) => Number(v.replace(/[^0-9]/g, '')) || 0; // thousands separators of either language
   const value = (row: (typeof rows)[number], k: string) => resolve(row.fields[k], locale, '');
   const visible = rows.filter((r) => r.active);
-  const total = (k: string) => (visible.reduce((sum, r) => sum + num(value(r, k)), 0) * multiplier).toLocaleString('vi-VN');
+  const total = (k: string) => (visible.reduce((sum, r) => sum + num(value(r, k)), 0) * multiplier).toLocaleString(numberLocale);
   // While editing show the stored daily figure; visitors see it multiplied for the chosen period.
   const cell = (row: (typeof rows)[number], k: string) =>
-    editing ? <T k={k} /> : (num(value(row, k)) * multiplier).toLocaleString('vi-VN');
+    editing ? <T k={k} /> : (num(value(row, k)) * multiplier).toLocaleString(numberLocale);
 
   return (
     <div className="space-y-6">

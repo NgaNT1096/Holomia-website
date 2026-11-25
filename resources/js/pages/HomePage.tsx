@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { useCms } from '../lib/cms';
 import { IfText, ImageControl, resolve, SectionFrame, SectionImg, T, useEditor } from '../lib/editor';
 import React, { useEffect, useState } from 'react';
@@ -27,6 +28,7 @@ export const HomePage: React.FC<HomePageProps> = ({
   onOpenModal,
   onScrollToLivingLab,
 }) => {
+  const tr = useTr();
   const { caseStudies: CASE_STUDIES } = useCms();
   const { editing, locale, sections } = useEditor();
   // Hero slider: image + label of each scene come from the hero section.
@@ -289,7 +291,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               </h2>
 
               <div className="relative rounded-xl overflow-hidden border border-slate-200 h-44">
-                <SectionImg k="roi.image" alt="Sơ đồ mặt bằng Holomia Venue" className="w-full h-full object-cover" />
+                <SectionImg k="roi.image" alt={tr('Sơ đồ mặt bằng Holomia Venue', 'Holomia Venue floor plan')} className="w-full h-full object-cover" />
                 <ImageControl k="roi.image" label="Đổi ảnh" />
               </div>
 
@@ -327,7 +329,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               </h2>
 
               <div className="relative rounded-2xl overflow-hidden border border-white/15 h-56">
-                <SectionImg k="showroom.image" alt="Showroom Mẫu Holomia Living Lab" className="w-full h-full object-cover" />
+                <SectionImg k="showroom.image" alt={tr('Showroom Mẫu Holomia Living Lab', 'Holomia Living Lab showroom')} className="w-full h-full object-cover" />
                 <ImageControl k="showroom.image" label="Đổi ảnh" />
               </div>
 

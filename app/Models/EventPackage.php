@@ -12,10 +12,10 @@ class EventPackage extends Model
         static::deleted(fn () => \App\Support\SiteData::flush());
     }
 
-    protected $fillable = ['slug','name','scale','capacity_per_day','staffing','content_included','two_day_price','extra_day_price','recommended_for','highlighted','sort','is_published'];
+    protected $fillable = ['en','slug','name','scale','capacity_per_day','staffing','content_included','two_day_price','extra_day_price','recommended_for','highlighted','sort','is_published'];
 
     protected function casts(): array
     {
-        return ['highlighted'=>'bool','is_published'=>'bool'];
+        return ['en' => 'array','highlighted'=>'bool','is_published'=>'bool'];
     }
 }

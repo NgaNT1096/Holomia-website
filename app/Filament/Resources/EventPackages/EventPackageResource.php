@@ -5,6 +5,7 @@ namespace App\Filament\Resources\EventPackages;
 use App\Filament\Resources\EventPackages\Pages\ManageEventPackages;
 use App\Models\EventPackage;
 use BackedEnum;
+use Filament\Schemas\Components\Section;
 use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
@@ -46,6 +47,16 @@ class EventPackageResource extends Resource
                 TextInput::make('recommended_for')->label('Phù hợp cho'),
                 Textarea::make('content_included')->label('Nội dung bao gồm')->rows(3)->columnSpanFull(),
                 Toggle::make('highlighted')->label('Gói nổi bật'),
+                Section::make('Tiếng Anh (bỏ trống = hiện tiếng Việt)')->collapsible()->collapsed()->columnSpanFull()->schema([
+                    TextInput::make('en.name')->label('Name'),
+                    TextInput::make('en.scale')->label('Scale'),
+                    TextInput::make('en.capacity_per_day')->label('Guests per day'),
+                    TextInput::make('en.staffing')->label('Staff'),
+                    TextInput::make('en.two_day_price')->label('2-day price'),
+                    TextInput::make('en.extra_day_price')->label('Extra day price'),
+                    TextInput::make('en.recommended_for')->label('Recommended for'),
+                    Textarea::make('en.content_included')->label('Content included')->rows(3),
+                ]),
                 TextInput::make('sort')->label('Thứ tự')->numeric()->default(0),
                 Toggle::make('is_published')->label('Hiển thị')->default(true),
             ]);

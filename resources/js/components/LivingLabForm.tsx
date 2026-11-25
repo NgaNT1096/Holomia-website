@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { Tx } from '../lib/editor';
 import { submitLead, useCms } from '../lib/cms';
 import React, { useState } from 'react';
@@ -23,12 +24,19 @@ const INTEREST_TAG_MAP: Record<string, { tag: string; team: string }> = {
   },
 };
 
+const TEAM_EN: Record<string, string> = {
+  'Đội ngũ Sự kiện & Agency': 'Events & Agency team',
+  'Đội ngũ Mặt bằng Thương mại': 'Commercial Venue team',
+  'Đội ngũ Du lịch & Thiết kế riêng': 'Tourism & Custom Design team',
+};
+
 const TIME_SLOTS = ['09:30 – 10:00', '10:30 – 11:00', '14:00 – 14:30', '15:30 – 16:00'];
 
 export const LivingLabForm: React.FC<LivingLabFormProps> = ({
   defaultInterest = 'Tổ chức Sự kiện',
   showSchedulePicker = false,
 }) => {
+  const tr = useTr();
   const { t } = useCms();
   const [fullName, setFullName] = useState('');
   const [phone, setPhone] = useState('');
@@ -44,17 +52,17 @@ export const LivingLabForm: React.FC<LivingLabFormProps> = ({
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!fullName.trim() || !phone.trim() || !company.trim()) {
-      setError('Vui lòng điền Họ tên, Số điện thoại/Zalo và Tên Công ty.');
+      setError(tr('Vui lòng điền Họ tên, Số điện thoại/Zalo và Tên Công ty.', 'Please enter your name, phone / Zalo and company.'));
       return;
     }
     if (!agreed) {
-      setError('Vui lòng xác nhận đồng ý đặt lịch.');
+      setError(tr('Vui lòng xác nhận đồng ý đặt lịch.', 'Please tick the box to confirm the booking.'));
       return;
     }
     setError('');
     const ok = await submitLead({ tag: 'living-lab', name: fullName, phone, company, payload: {} });
     if (!ok) {
-      setError('Gửi không thành công, vui lòng thử lại sau.');
+      setError(tr('Gửi không thành công, vui lòng thử lại sau.', 'Sending failed, please try again later.'));
       return;
     }
     setSubmitted(true);
@@ -69,7 +77,7 @@ export const LivingLabForm: React.FC<LivingLabFormProps> = ({
         </div>
         <h3 className="text-xl font-bold text-white"><Tx k="livinglab.001" d={"Đã nhận yêu cầu đặt lịch"} /></h3>
         <p className="text-sm text-slate-300">
-          <Tx k="livinglab.002" d={"Chuyển tiếp tới"} /> <strong className="text-[#00E5FF]">{routing.team}</strong> ({routing.tag}).
+          <Tx k="livinglab.002" d={"Chuyển tiếp tới"} /> <strong className="text-[#00E5FF]">{tr(routing.team, TEAM_EN[routing.team] ?? routing.team)}</strong> ({routing.tag}).
         </p>
         <button
           type="button"
@@ -163,7 +171,7 @@ export const LivingLabForm: React.FC<LivingLabFormProps> = ({
                     : 'bg-[#0B0F19] border-white/15 text-slate-300 hover:border-white/30'
                 }`}
               >
-                {city}
+                {tr(city, city === 'Hà Nội' ? 'Hanoi' : 'HCMC')}
               </button>
             ))}
           </div>

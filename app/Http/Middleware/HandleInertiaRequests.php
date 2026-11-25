@@ -37,8 +37,11 @@ class HandleInertiaRequests extends Middleware
     {
         return [
             ...parent::share($request),
-            'cms' => fn () => \App\Support\SiteData::all(),
+            'cms' => fn () => \App\Support\SiteData::all(app()->getLocale()),
             'locale' => fn () => app()->getLocale(),
+            'paths' => fn () => array_values(array_map(
+                fn ($r) => ['vi' => $r['vi']['path'], 'en' => $r['en']['path']], config('site_routes')
+            )),
             'canEdit' => fn () => $request->user() !== null,
             'sections' => fn () => \App\Support\Sections::payload(app()->getLocale(), $request->user() !== null),
         ];

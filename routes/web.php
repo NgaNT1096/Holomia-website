@@ -1,31 +1,26 @@
 <?php
 
+use App\Http\Controllers\EditorController;
+use App\Http\Controllers\LeadController;
+use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
-Route::get('/', [\App\Http\Controllers\HomeController::class, 'show'])->name('home');
-Route::get('/en', [\App\Http\Controllers\HomeController::class, 'show'])->name('home.en');
+// Public pages in Vietnamese and English (paths in config/site_routes.php).
+foreach (config('site_routes') as $page => $locales) {
+    foreach ($locales as $locale => $meta) {
+        Route::get($meta['path'], [SiteController::class, 'show'])
+            ->defaults('page', $page)
+            ->defaults('locale', $locale)
+            ->name($locale === 'vi' ? $page : "$page.$locale");
+    }
+}
 
 // Inline editor (logged-in admins only; CSRF comes from the web group).
 Route::middleware(['auth', 'throttle:60,1'])->prefix('editor')->group(function () {
-    Route::put('sections', [\App\Http\Controllers\EditorController::class, 'save'])->name('editor.save');
-    Route::post('upload', [\App\Http\Controllers\EditorController::class, 'upload'])->name('editor.upload');
+    Route::put('sections', [EditorController::class, 'save'])->name('editor.save');
+    Route::post('upload', [EditorController::class, 'upload'])->name('editor.upload');
 });
 
-$pages = [
-    '/nen-tang' => 'platform',
-    '/giai-phap/su-kien' => 'solutions-event',
-    '/giai-phap/mat-bang' => 'solutions-venue',
-    '/giai-phap/du-an-rieng' => 'solutions-custom',
-    '/du-an' => 'case-studies',
-    '/showroom' => 'showroom',
-    '/ve-chung-toi' => 'about',
-];
-
-foreach ($pages as $uri => $route) {
-    Route::get($uri, fn () => Inertia::render('Site', ['route' => $route]))->name($route);
-}
-
-Route::post('/api/lead', [\App\Http\Controllers\LeadController::class, 'store'])
+Route::post('/api/lead', [LeadController::class, 'store'])
     ->middleware('throttle:10,1')
     ->name('lead.store');

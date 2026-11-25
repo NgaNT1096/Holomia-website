@@ -3,6 +3,8 @@ import { ChevronDown, Menu, X } from 'lucide-react';
 import { AppRoute } from '../types/holomia';
 import { AddItem, GlobalSection, IfText, Item, ItemData, SectionData, T, useEditor, useItems } from '../lib/editor';
 import { useCurrentPath, useFollow } from '../lib/links';
+import { LanguageSwitch } from './LanguageSwitch';
+import { useTr } from '../lib/locale';
 
 interface NavbarProps {
   currentRoute: AppRoute;
@@ -16,6 +18,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => (
 
 const NavbarContent: React.FC<NavbarProps & { section: SectionData }> = ({ onNavigate, onBookShowroom, section }) => {
   const { editing } = useEditor();
+  const tr = useTr();
   const menu = useItems(section, 'menu');
   const solutions = useItems(section, 'solution');
   const follow = useFollow();
@@ -64,7 +67,7 @@ const NavbarContent: React.FC<NavbarProps & { section: SectionData }> = ({ onNav
           <T k="header.brand" d="LOMIA" />
         </button>
 
-        <nav aria-label="Điều hướng chính" className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
+        <nav aria-label={tr('Điều hướng chính', 'Main navigation')} className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
           {menu.map((item) =>
             item.link === '#solutions' ? (
               <Item key={item.id} item={item} inline linkable>
@@ -125,6 +128,7 @@ const NavbarContent: React.FC<NavbarProps & { section: SectionData }> = ({ onNav
         </nav>
 
         <div className="flex items-center gap-3 shrink-0">
+          <LanguageSwitch />
           <IfText k="header.cta">
           <button
             type="button"
@@ -137,7 +141,7 @@ const NavbarContent: React.FC<NavbarProps & { section: SectionData }> = ({ onNav
 
           <button
             type="button"
-            aria-label={mobileOpen ? 'Đóng menu' : 'Mở menu'}
+            aria-label={mobileOpen ? tr('Đóng menu', 'Close menu') : tr('Mở menu', 'Open menu')}
             onClick={() => setMobileOpen((prev) => !prev)}
             className="lg:hidden p-2 rounded-lg border border-white/15 text-slate-200 hover:bg-white/5 cursor-pointer"
           >

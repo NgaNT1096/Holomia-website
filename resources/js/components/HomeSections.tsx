@@ -1,3 +1,4 @@
+import { useNumberLocale } from '../lib/locale';
 import React, { useEffect, useRef, useState } from 'react';
 import { ArrowRight, Check } from 'lucide-react';
 import { HomePartners } from './PartnerLogos';
@@ -9,10 +10,11 @@ import { useFollow } from '../lib/links';
 function Counter({ progress }: { progress: number }) {
   const { editing } = useEditor();
   const field = useField();
+  const numberLocale = useNumberLocale();
   const value = field('value');
   const target = Number(value.replace(/[^0-9]/g, ''));
   // Animate plain numbers only; anything else is shown as typed.
-  const animated = /^[0-9.,]+$/.test(value) ? Math.max(1, Math.round(target * progress)).toLocaleString('vi-VN') : value;
+  const animated = /^[0-9.,]+$/.test(value) ? Math.max(1, Math.round(target * progress)).toLocaleString(numberLocale) : value;
 
   return (
     <div className="bg-[#0F172A]/70 border border-white/10 rounded-xl px-5 py-4 h-full">

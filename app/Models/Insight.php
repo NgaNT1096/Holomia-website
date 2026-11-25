@@ -12,10 +12,10 @@ class Insight extends Model
         static::deleted(fn () => \App\Support\SiteData::flush());
     }
 
-    protected $fillable = ['slug','category','read_time','date_label','title','summary','images','key_takeaways','body','sort','is_published'];
+    protected $fillable = ['en','slug','category','read_time','date_label','title','summary','images','key_takeaways','body','sort','is_published'];
 
     protected function casts(): array
     {
-        return ['images'=>'array','key_takeaways'=>'array','body'=>'array','is_published'=>'bool'];
+        return ['en' => 'array','images'=>'array','key_takeaways'=>'array','body'=>'array','is_published'=>'bool'];
     }
 }

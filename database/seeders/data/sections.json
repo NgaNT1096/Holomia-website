@@ -7,35 +7,43 @@
                 "template": "hero",
                 "fields": {
                     "home.001": {
-                        "vi": "Đa người dùng"
+                        "vi": "Đa người dùng",
+                        "en": "Built for Multiplayer"
                     },
                     "home.002": {
-                        "vi": "Holomia giúp sự kiện, điểm tham quan và địa điểm giải trí đón khách theo nhóm, điều phối nhiều phiên và chuyển giao quy trình để triển khai lại ở địa điểm khác."
+                        "vi": "Holomia giúp sự kiện, điểm tham quan và địa điểm giải trí đón khách theo nhóm, điều phối nhiều phiên và chuyển giao quy trình để triển khai lại ở địa điểm khác.",
+                        "en": "Holomia helps events, attractions and entertainment venues welcome guests in groups, run multiple sessions and hand over the process so it can be repeated at other sites."
                     },
                     "home.003": {
-                        "vi": "Đặt lịch Showroom"
+                        "vi": "Đặt lịch Showroom",
+                        "en": "Book a Showroom visit"
                     },
                     "home.004": {
-                        "vi": "Xem các dự án thực tế"
+                        "vi": "Xem các dự án thực tế",
+                        "en": "See real projects"
                     },
                     "hero.title": {
-                        "vi": "Hạ tầng VR"
+                        "vi": "Hạ tầng VR",
+                        "en": "VR Infrastructure"
                     },
                     "hero.scene0": {
-                        "vi": "Bưu điện Hà Nội"
+                        "vi": "Bưu điện Hà Nội",
+                        "en": "Hanoi Post Office"
                     },
                     "hero.scene1": {
                         "vi": "Lotte Center · Omega Arena"
                     },
                     "hero.scene2": {
-                        "vi": "Điều phối Tablet"
+                        "vi": "Điều phối Tablet",
+                        "en": "Tablet control"
                     }
                 },
                 "images": {
                     "hero.scene0": {
                         "path": "uploads/case_vov_event_1795398226348.jpg",
                         "alt": {
-                            "vi": "Bưu điện Hà Nội"
+                            "vi": "Bưu điện Hà Nội",
+                            "en": "Hanoi Post Office"
                         }
                     },
                     "hero.scene1": {
@@ -47,7 +55,8 @@
                     "hero.scene2": {
                         "path": "uploads/platform_video_tablet_1795401954033.jpg",
                         "alt": {
-                            "vi": "Điều phối Tablet"
+                            "vi": "Điều phối Tablet",
+                            "en": "Tablet control"
                         }
                     }
                 },
@@ -90,7 +99,8 @@
                                 "vi": ""
                             },
                             "label": {
-                                "vi": "Lượt/ngày tại Bưu điện HN"
+                                "vi": "Lượt/ngày tại Bưu điện HN",
+                                "en": "Guests/day at Hanoi Post Office"
                             }
                         },
                         "images": [],
@@ -119,13 +129,15 @@
                         "kind": "counter",
                         "fields": {
                             "value": {
-                                "vi": "15 kính x 5"
+                                "vi": "15 kính x 5",
+                                "en": "15 headsets x 5"
                             },
                             "suffix": {
                                 "vi": ""
                             },
                             "label": {
-                                "vi": "khách / nhóm"
+                                "vi": "khách / nhóm",
+                                "en": "guests / group"
                             }
                         },
                         "images": [],
@@ -157,10 +169,12 @@
                                 "vi": "10"
                             },
                             "suffix": {
-                                "vi": "+ Năm"
+                                "vi": "+ Năm",
+                                "en": "+ Years"
                             },
                             "label": {
-                                "vi": "R&D công nghệ XR"
+                                "vi": "R&D công nghệ XR",
+                                "en": "XR technology R&D"
                             }
                         },
                         "images": [],
@@ -192,10 +206,12 @@
                                 "vi": "63"
                             },
                             "suffix": {
-                                "vi": "Tỉnh"
+                                "vi": "Tỉnh",
+                                "en": "Provinces"
                             },
                             "label": {
-                                "vi": "Toàn quốc & quốc tế"
+                                "vi": "Toàn quốc & quốc tế",
+                                "en": "Nationwide & international"
                             }
                         },
                         "images": [],
@@ -240,7 +256,8 @@
                         "kind": "partner",
                         "fields": {
                             "name": {
-                                "vi": "T20 Quảng Trị"
+                                "vi": "T20 Quảng Trị",
+                                "en": "T20 Quang Tri"
                             },
                             "sub": {
                                 "vi": ""
@@ -261,30 +278,38 @@
                         "vi": "Holomia Platform"
                     },
                     "home.006": {
-                        "vi": "Từ đón khách đến điều phối từng phiên"
+                        "vi": "Từ đón khách đến điều phối từng phiên",
+                        "en": "From guest arrival to session control"
                     },
                     "home.007": {
-                        "vi": "Chuẩn bị nhóm và thiết bị"
+                        "vi": "Chuẩn bị nhóm và thiết bị",
+                        "en": "Prepare groups and devices"
                     },
                     "home.008": {
-                        "vi": "Chia lượt khách, giao kính và kiểm tra trạng thái trước khi bắt đầu."
+                        "vi": "Chia lượt khách, giao kính và kiểm tra trạng thái trước khi bắt đầu.",
+                        "en": "Split guests into rounds, hand out headsets and check status before starting."
                     },
                     "home.009": {
                         "vi": "Điều phối nhiều phiên",
-                        "removed": true
+                        "removed": true,
+                        "en": "Run multiple sessions"
                     },
                     "home.010": {
                         "vi": "Khởi chạy nội dung theo nhóm, theo dõi phiên đang chạy và chuẩn bị lượt kế tiếp.",
-                        "removed": true
+                        "removed": true,
+                        "en": "Launch content by group, monitor live sessions and get the next round ready."
                     },
                     "home.011": {
-                        "vi": "Chuyển giao cho đội ngũ tại điểm"
+                        "vi": "Chuyển giao cho đội ngũ tại điểm",
+                        "en": "Hand over to the on-site team"
                     },
                     "home.012": {
-                        "vi": "Cấu hình theo mặt bằng, hướng dẫn nhân sự và chuẩn hóa quy trình để có thể triển khai lại ở địa điểm khác."
+                        "vi": "Cấu hình theo mặt bằng, hướng dẫn nhân sự và chuẩn hóa quy trình để có thể triển khai lại ở địa điểm khác.",
+                        "en": "Configure for the venue, train staff and standardise the process so it can be rolled out elsewhere."
                     },
                     "home.013": {
-                        "vi": "Khám phá nền tảng"
+                        "vi": "Khám phá nền tảng",
+                        "en": "Explore the platform"
                     }
                 },
                 "images": [],
@@ -297,10 +322,12 @@
                 "template": "pillars",
                 "fields": {
                     "home.014": {
-                        "vi": "Ba mô hình"
+                        "vi": "Ba mô hình",
+                        "en": "Three deployment"
                     },
                     "home.015": {
-                        "vi": "triển khai"
+                        "vi": "triển khai",
+                        "en": "models"
                     }
                 },
                 "images": [],
@@ -315,26 +342,32 @@
                                 "vi": "Holomia Event"
                             },
                             "description": {
-                                "vi": "Giải pháp sự kiện trọn gói 600 – 4.000 lượt khách/ngày. Được Meta và VOV tin dùng."
+                                "vi": "Giải pháp sự kiện trọn gói 600 – 4.000 lượt khách/ngày. Được Meta và VOV tin dùng.",
+                                "en": "Turnkey event solution for 600 – 4,000 guests a day. Trusted by Meta and VOV."
                             },
                             "bullet1": {
-                                "vi": "Đồng bộ phát nội dung đồng loạt tới 100 kính chỉ với 1 chạm"
+                                "vi": "Đồng bộ phát nội dung đồng loạt tới 100 kính chỉ với 1 chạm",
+                                "en": "Launch content on up to 100 headsets at once with a single tap"
                             },
                             "bullet2": {
-                                "vi": "Lắp đặt nhanh trong 120 phút tại bất kỳ sảnh triển lãm nào"
+                                "vi": "Lắp đặt nhanh trong 120 phút tại bất kỳ sảnh triển lãm nào",
+                                "en": "Set up in 120 minutes in any exhibition hall"
                             },
                             "bullet3": {
-                                "vi": "Chiết khấu và Rate Card chuyên biệt dành cho Event Agency"
+                                "vi": "Chiết khấu và Rate Card chuyên biệt dành cho Event Agency",
+                                "en": "Dedicated discounts and rate card for event agencies"
                             },
                             "linkLabel": {
-                                "vi": "Xem bảng gói sự kiện & Chính sách Agency"
+                                "vi": "Xem bảng gói sự kiện & Chính sách Agency",
+                                "en": "View event packages & agency policy"
                             }
                         },
                         "images": {
                             "image": {
                                 "path": "uploads/thumb_solution_event_1795401953196.jpg",
                                 "alt": {
-                                    "vi": "Giải pháp cho sự kiện"
+                                    "vi": "Giải pháp cho sự kiện",
+                                    "en": "Solution for events"
                                 }
                             }
                         },
@@ -350,26 +383,32 @@
                                 "vi": "Holomia Venue"
                             },
                             "description": {
-                                "vi": "Biến mặt bằng trống thành cỗ máy doanh thu kép. Mô hình đang vận hành tại Landmark 81 & Lotte Center."
+                                "vi": "Biến mặt bằng trống thành cỗ máy doanh thu kép. Mô hình đang vận hành tại Landmark 81 & Lotte Center.",
+                                "en": "Turn empty floor space into a dual revenue engine. Running at Landmark 81 & Lotte Center."
                             },
                             "bullet1": {
-                                "vi": "Hợp tác chia sẻ doanh thu Rev-share 70/30 hoặc License theo năm"
+                                "vi": "Hợp tác chia sẻ doanh thu Rev-share 70/30 hoặc License theo năm",
+                                "en": "70/30 revenue share or an annual licence"
                             },
                             "bullet2": {
-                                "vi": "Chuyển đổi tức thì giữa nội dung Di sản ban ngày và Arena buổi tối"
+                                "vi": "Chuyển đổi tức thì giữa nội dung Di sản ban ngày và Arena buổi tối",
+                                "en": "Switch instantly between heritage content by day and the Arena by night"
                             },
                             "bullet3": {
-                                "vi": "Báo cáo soát vé và lưu lượng khách theo thời gian thực"
+                                "vi": "Báo cáo soát vé và lưu lượng khách theo thời gian thực",
+                                "en": "Real-time ticketing and footfall reports"
                             },
                             "linkLabel": {
-                                "vi": "Tính thử lợi nhuận mặt bằng (ROI)"
+                                "vi": "Tính thử lợi nhuận mặt bằng (ROI)",
+                                "en": "Estimate venue returns (ROI)"
                             }
                         },
                         "images": {
                             "image": {
                                 "path": "uploads/thumb_solution_venue_1795401954537.jpg",
                                 "alt": {
-                                    "vi": "Giải pháp cho mặt bằng"
+                                    "vi": "Giải pháp cho mặt bằng",
+                                    "en": "Solution for venues"
                                 }
                             }
                         },
@@ -385,26 +424,32 @@
                                 "vi": "Holomia Custom"
                             },
                             "description": {
-                                "vi": "Hệ thống mô phỏng VR5D/9D, Vali VR Kit và Số hóa di sản độc quyền theo đặt hàng."
+                                "vi": "Hệ thống mô phỏng VR5D/9D, Vali VR Kit và Số hóa di sản độc quyền theo đặt hàng.",
+                                "en": "Bespoke VR5D/9D simulators, VR Kit cases and heritage digitisation."
                             },
                             "bullet1": {
-                                "vi": "Thiết kế ghế chuyển động thủy lực VR5D và buồng lái xe VR9D"
+                                "vi": "Thiết kế ghế chuyển động thủy lực VR5D và buồng lái xe VR9D",
+                                "en": "Hydraulic VR5D motion seats and VR9D driving cockpits"
                             },
                             "bullet2": {
-                                "vi": "Vali triển lãm di động VR Kit chuẩn hành lý hàng không quốc tế"
+                                "vi": "Vali triển lãm di động VR Kit chuẩn hành lý hàng không quốc tế",
+                                "en": "Travel-ready VR Kit case that meets international air baggage standards"
                             },
                             "bullet3": {
-                                "vi": "Số hóa 3D Photogrammetry bảo tồn hang động, di tích lịch sử"
+                                "vi": "Số hóa 3D Photogrammetry bảo tồn hang động, di tích lịch sử",
+                                "en": "3D photogrammetry to preserve caves and historic sites"
                             },
                             "linkLabel": {
-                                "vi": "Khám phá dự án Sơn Đoòng & Trường Sơn"
+                                "vi": "Khám phá dự án Sơn Đoòng & Trường Sơn",
+                                "en": "Explore the Son Doong & Truong Son projects"
                             }
                         },
                         "images": {
                             "image": {
                                 "path": "uploads/thumb_solution_custom_1795401954687.jpg",
                                 "alt": {
-                                    "vi": "Giải pháp dự án riêng"
+                                    "vi": "Giải pháp dự án riêng",
+                                    "en": "Solution for custom projects"
                                 }
                             }
                         },
@@ -419,13 +464,16 @@
                 "template": "cases",
                 "fields": {
                     "home.016": {
-                        "vi": "biểu tượng"
+                        "vi": "biểu tượng",
+                        "en": "that set the benchmark"
                     },
                     "home.017": {
-                        "vi": "Tất cả dự án"
+                        "vi": "Tất cả dự án",
+                        "en": "All projects"
                     },
                     "cases.title": {
-                        "vi": "Dự án"
+                        "vi": "Dự án",
+                        "en": "Projects"
                     }
                 },
                 "images": [],
@@ -441,17 +489,20 @@
                         "vi": "Holomia Venue"
                     },
                     "home.019": {
-                        "vi": "Dự phóng doanh thu mặt bằng"
+                        "vi": "Dự phóng doanh thu mặt bằng",
+                        "en": "Venue revenue forecast"
                     },
                     "home.020": {
-                        "vi": "Mô hình Rev-share 70/30"
+                        "vi": "Mô hình Rev-share 70/30",
+                        "en": "70/30 revenue-share model"
                     }
                 },
                 "images": {
                     "roi.image": {
                         "path": "uploads/arena_floorplan_blueprint_1795398914491.jpg",
                         "alt": {
-                            "vi": "Sơ đồ mặt bằng arena"
+                            "vi": "Sơ đồ mặt bằng arena",
+                            "en": "Arena floor plan"
                         }
                     }
                 },
@@ -464,22 +515,26 @@
                 "template": "showroom",
                 "fields": {
                     "home.021": {
-                        "vi": "Trải nghiệm 30 phút tại"
+                        "vi": "Trải nghiệm 30 phút tại",
+                        "en": "30 minutes hands-on at our"
                     },
                     "home.022": {
                         "vi": "Showroom"
                     },
                     "home.023": {
-                        "vi": "Hà Nội"
+                        "vi": "Hà Nội",
+                        "en": "Hanoi"
                     },
                     "home.024": {
-                        "vi": "Viwaseen Tower, 48 Tố Hữu"
+                        "vi": "Viwaseen Tower, 48 Tố Hữu",
+                        "en": "Viwaseen Tower, 48 To Huu"
                     },
                     "home.025": {
                         "vi": "TP.HCM"
                     },
                     "home.026": {
-                        "vi": "Living Lab B2B, Quận 1"
+                        "vi": "Living Lab B2B, Quận 1",
+                        "en": "B2B Living Lab, District 1"
                     }
                 },
                 "images": {
@@ -508,7 +563,8 @@
                         "vi": "LOMIA"
                     },
                     "header.cta": {
-                        "vi": "Đặt lịch showroom"
+                        "vi": "Đặt lịch showroom",
+                        "en": "Book showroom visit"
                     }
                 },
                 "images": [],
@@ -520,7 +576,8 @@
                         "kind": "menu",
                         "fields": {
                             "label": {
-                                "vi": "Trang chủ"
+                                "vi": "Trang chủ",
+                                "en": "Home"
                             }
                         },
                         "images": [],
@@ -536,7 +593,8 @@
                                 "vi": "Holomia Event"
                             },
                             "description": {
-                                "vi": "Sự kiện trọn gói · Rate Card Agency"
+                                "vi": "Sự kiện trọn gói · Rate Card Agency",
+                                "en": "Turnkey events · Agency rate card"
                             }
                         },
                         "images": [],
@@ -549,7 +607,8 @@
                         "kind": "menu",
                         "fields": {
                             "label": {
-                                "vi": "Nền tảng lõi"
+                                "vi": "Nền tảng lõi",
+                                "en": "Core platform"
                             }
                         },
                         "images": [],
@@ -565,7 +624,8 @@
                                 "vi": "Holomia Venue"
                             },
                             "description": {
-                                "vi": "Hợp tác Rev-share 70/30 & Tính ROI"
+                                "vi": "Hợp tác Rev-share 70/30 & Tính ROI",
+                                "en": "70/30 revenue share & ROI calculator"
                             }
                         },
                         "images": [],
@@ -578,7 +638,8 @@
                         "kind": "menu",
                         "fields": {
                             "label": {
-                                "vi": "Giải pháp"
+                                "vi": "Giải pháp",
+                                "en": "Solutions"
                             }
                         },
                         "images": [],
@@ -594,7 +655,8 @@
                                 "vi": "Holomia Custom"
                             },
                             "description": {
-                                "vi": "VR5D/9D · Vali VR Kit · Số hóa di sản"
+                                "vi": "VR5D/9D · Vali VR Kit · Số hóa di sản",
+                                "en": "VR5D/9D · VR Kit case · Heritage digitisation"
                             }
                         },
                         "images": [],
@@ -607,7 +669,8 @@
                         "kind": "menu",
                         "fields": {
                             "label": {
-                                "vi": "Dự án"
+                                "vi": "Dự án",
+                                "en": "Projects"
                             }
                         },
                         "images": [],
@@ -633,7 +696,8 @@
                         "kind": "menu",
                         "fields": {
                             "label": {
-                                "vi": "Về Holomia & Tin tức"
+                                "vi": "Về Holomia & Tin tức",
+                                "en": "About & News"
                             }
                         },
                         "images": [],
@@ -651,16 +715,19 @@
                         "vi": "LOMIA"
                     },
                     "footer.about": {
-                        "vi": "Hạ tầng vận hành thực tế ảo đa người dùng cho sự kiện, điểm đến thương mại và di sản."
+                        "vi": "Hạ tầng vận hành thực tế ảo đa người dùng cho sự kiện, điểm đến thương mại và di sản.",
+                        "en": "Multiplayer virtual reality operations for events, commercial destinations and heritage."
                     },
                     "footer.company": {
-                        "vi": "Công ty TNHH Công nghệ Holomia"
+                        "vi": "Công ty TNHH Công nghệ Holomia",
+                        "en": "Holomia Technology Co., Ltd."
                     },
                     "footer.tax": {
                         "vi": "MST: 0107625839"
                     },
                     "footer.linksTitle": {
-                        "vi": "Giải pháp"
+                        "vi": "Giải pháp",
+                        "en": "Solutions"
                     },
                     "footer.contactTitle": {
                         "vi": "Showroom & Hotline"
@@ -672,13 +739,15 @@
                         "vi": "contact@holomia.com"
                     },
                     "footer.channelsTitle": {
-                        "vi": "Kênh kết nối"
+                        "vi": "Kênh kết nối",
+                        "en": "Connect"
                     },
                     "footer.copyright": {
                         "vi": "Holomia Technology."
                     },
                     "footer.cta": {
-                        "vi": "Đặt lịch Showroom"
+                        "vi": "Đặt lịch Showroom",
+                        "en": "Book a Showroom visit"
                     }
                 },
                 "images": [],
@@ -703,7 +772,8 @@
                         "kind": "location",
                         "fields": {
                             "label": {
-                                "vi": "Hà Nội: Tầng 6, Viwaseen Tower, 48 Tố Hữu"
+                                "vi": "Hà Nội: Tầng 6, Viwaseen Tower, 48 Tố Hữu",
+                                "en": "Hanoi: 6th floor, Viwaseen Tower, 48 To Huu"
                             }
                         },
                         "images": [],
@@ -716,7 +786,8 @@
                         "kind": "channel",
                         "fields": {
                             "label": {
-                                "vi": "Tải Pitch Deck"
+                                "vi": "Tải Pitch Deck",
+                                "en": "Download Pitch Deck"
                             }
                         },
                         "images": [],
@@ -742,7 +813,8 @@
                         "kind": "location",
                         "fields": {
                             "label": {
-                                "vi": "TP.HCM: Living Lab B2B, Quận 1"
+                                "vi": "TP.HCM: Living Lab B2B, Quận 1",
+                                "en": "HCMC: B2B Living Lab, District 1"
                             }
                         },
                         "images": [],
@@ -822,31 +894,40 @@
                 "template": "text.about",
                 "fields": {
                     "about.001": {
-                        "vi": "Về Holomia"
+                        "vi": "Về Holomia",
+                        "en": "About Holomia"
                     },
                     "about.002": {
-                        "vi": "Hơn 10 năm phát triển công nghệ XR tại Việt Nam"
+                        "vi": "Hơn 10 năm phát triển công nghệ XR tại Việt Nam",
+                        "en": "10+ years of XR development in Vietnam"
                     },
                     "about.003": {
-                        "vi": "Phát triển nền tảng thực tế ảo đa người dùng cho sự kiện, thương mại và di sản."
+                        "vi": "Phát triển nền tảng thực tế ảo đa người dùng cho sự kiện, thương mại và di sản.",
+                        "en": "Building multiplayer virtual reality platforms for events, retail and heritage."
                     },
                     "about.004": {
-                        "vi": "Từ R&D đến vận hành thực tế"
+                        "vi": "Từ R&D đến vận hành thực tế",
+                        "en": "From R&D to real-world operations"
                     },
                     "about.005": {
-                        "vi": "Tập trung vào tính ổn định khi đón hàng nghìn lượt khách mỗi ngày và tối ưu hiệu quả đầu tư cho đối tác."
+                        "vi": "Tập trung vào tính ổn định khi đón hàng nghìn lượt khách mỗi ngày và tối ưu hiệu quả đầu tư cho đối tác.",
+                        "en": "Focused on stability when serving thousands of guests a day and on partners' return on investment."
                     },
                     "about.006": {
-                        "vi": "Xem dự án thực tế"
+                        "vi": "Xem dự án thực tế",
+                        "en": "See real projects"
                     },
                     "about.007": {
-                        "vi": "Góc nhìn ngành XR"
+                        "vi": "Góc nhìn ngành XR",
+                        "en": "XR industry insights"
                     },
                     "about.008": {
-                        "vi": "Đọc bài viết"
+                        "vi": "Đọc bài viết",
+                        "en": "Read article"
                     },
                     "about.009": {
-                        "vi": "Đóng bài viết"
+                        "vi": "Đóng bài viết",
+                        "en": "Close article"
                     }
                 },
                 "images": [],
@@ -859,25 +940,32 @@
                 "template": "text.cases",
                 "fields": {
                     "cases.001": {
-                        "vi": "Dự án Thực chiến"
+                        "vi": "Dự án Thực chiến",
+                        "en": "Proven projects"
                     },
                     "cases.002": {
-                        "vi": "Công trình đã kiểm chứng"
+                        "vi": "Công trình đã kiểm chứng",
+                        "en": "Work that has been tested in the field"
                     },
                     "cases.003": {
-                        "vi": "Bài toán"
+                        "vi": "Bài toán",
+                        "en": "The challenge"
                     },
                     "cases.004": {
-                        "vi": "Giải pháp Holomia"
+                        "vi": "Giải pháp Holomia",
+                        "en": "Holomia's solution"
                     },
                     "cases.005": {
-                        "vi": "Kết quả"
+                        "vi": "Kết quả",
+                        "en": "Results"
                     },
                     "cases.006": {
-                        "vi": "Đặt lịch Showroom"
+                        "vi": "Đặt lịch Showroom",
+                        "en": "Book a Showroom visit"
                     },
                     "cases.007": {
-                        "vi": "Lọc dự án theo ngành"
+                        "vi": "Lọc dự án theo ngành",
+                        "en": "Filter projects by sector"
                     }
                 },
                 "images": [],
@@ -890,16 +978,20 @@
                 "template": "text.data.FILTERS",
                 "fields": {
                     "data.FILTERS.0.label": {
-                        "vi": "Tất cả"
+                        "vi": "Tất cả",
+                        "en": "All"
                     },
                     "data.FILTERS.1.label": {
-                        "vi": "Sự kiện lưu lượng lớn"
+                        "vi": "Sự kiện lưu lượng lớn",
+                        "en": "High-traffic events"
                     },
                     "data.FILTERS.2.label": {
-                        "vi": "Du lịch & Di sản"
+                        "vi": "Du lịch & Di sản",
+                        "en": "Tourism & Heritage"
                     },
                     "data.FILTERS.3.label": {
-                        "vi": "Điểm đến thương mại"
+                        "vi": "Điểm đến thương mại",
+                        "en": "Commercial destinations"
                     }
                 },
                 "images": [],
@@ -912,58 +1004,76 @@
                 "template": "text.data.MODAL_CONFIG",
                 "fields": {
                     "data.MODAL_CONFIG.agency-rate-card.ctaLabel": {
-                        "vi": "Gửi Rate Card qua Email / Zalo"
+                        "vi": "Gửi Rate Card qua Email / Zalo",
+                        "en": "Send rate card by Email / Zalo"
                     },
                     "data.MODAL_CONFIG.agency-rate-card.salesTeam": {
-                        "vi": "Đội ngũ Phụ trách Event Agency"
+                        "vi": "Đội ngũ Phụ trách Event Agency",
+                        "en": "Event Agency team"
                     },
                     "data.MODAL_CONFIG.agency-rate-card.subtitle": {
-                        "vi": "Bao gồm chiết khấu đối tác Agency, tùy chọn nhận diện thương hiệu trên giao diện kính, check-in QR và phương án điều phối đa cụm."
+                        "vi": "Bao gồm chiết khấu đối tác Agency, tùy chọn nhận diện thương hiệu trên giao diện kính, check-in QR và phương án điều phối đa cụm.",
+                        "en": "Includes agency partner discounts, optional branding in the headset interface, QR check-in and multi-cluster operation plans."
                     },
                     "data.MODAL_CONFIG.agency-rate-card.successDetail": {
-                        "vi": "Bảng giá chi tiết và chính sách chiết khấu Agency đã được chuyển tới email đăng ký và đồng bộ sang chuyên viên phụ trách mảng Sự kiện."
+                        "vi": "Bảng giá chi tiết và chính sách chiết khấu Agency đã được chuyển tới email đăng ký và đồng bộ sang chuyên viên phụ trách mảng Sự kiện.",
+                        "en": "The detailed price list and agency discount policy have been sent to your email and shared with our event specialist."
                     },
                     "data.MODAL_CONFIG.agency-rate-card.successTitle": {
-                        "vi": "Đã gửi Rate Card Agency"
+                        "vi": "Đã gửi Rate Card Agency",
+                        "en": "Agency rate card sent"
                     },
                     "data.MODAL_CONFIG.agency-rate-card.title": {
-                        "vi": "Nhận Rate Card dành riêng cho Event Agency"
+                        "vi": "Nhận Rate Card dành riêng cho Event Agency",
+                        "en": "Get the Event Agency rate card"
                     },
                     "data.MODAL_CONFIG.pitch-deck.ctaLabel": {
-                        "vi": "Nhận Pitch Deck ngay"
+                        "vi": "Nhận Pitch Deck ngay",
+                        "en": "Get the Pitch Deck"
                     },
                     "data.MODAL_CONFIG.pitch-deck.salesTeam": {
-                        "vi": "Bộ phận Tư vấn Giải pháp Doanh nghiệp"
+                        "vi": "Bộ phận Tư vấn Giải pháp Doanh nghiệp",
+                        "en": "Enterprise Solutions team"
                     },
                     "data.MODAL_CONFIG.pitch-deck.subtitle": {
-                        "vi": "Nhận ngay bộ tài liệu tổng quan hạ tầng Holomia Platform, các dự án đã triển khai cùng Meta, VOV, Oxalis và bảng thông số vận hành chuẩn."
+                        "vi": "Nhận ngay bộ tài liệu tổng quan hạ tầng Holomia Platform, các dự án đã triển khai cùng Meta, VOV, Oxalis và bảng thông số vận hành chuẩn.",
+                        "en": "Receive the Holomia Platform overview, projects delivered with Meta, VOV and Oxalis, and the standard operating specifications."
                     },
                     "data.MODAL_CONFIG.pitch-deck.successDetail": {
-                        "vi": "Liên kết tải PDF đã được gửi tới email của anh/chị. Thông tin yêu cầu đã được gắn thẻ tự động tới Bộ phận Tư vấn Giải pháp Doanh nghiệp."
+                        "vi": "Liên kết tải PDF đã được gửi tới email của anh/chị. Thông tin yêu cầu đã được gắn thẻ tự động tới Bộ phận Tư vấn Giải pháp Doanh nghiệp.",
+                        "en": "The PDF link has been sent to your email. Your request has been routed to the Enterprise Solutions team."
                     },
                     "data.MODAL_CONFIG.pitch-deck.successTitle": {
-                        "vi": "Hồ sơ năng lực đã sẵn sàng"
+                        "vi": "Hồ sơ năng lực đã sẵn sàng",
+                        "en": "Your company profile is ready"
                     },
                     "data.MODAL_CONFIG.pitch-deck.title": {
-                        "vi": "Tải Hồ sơ Năng lực (Pitch Deck)"
+                        "vi": "Tải Hồ sơ Năng lực (Pitch Deck)",
+                        "en": "Download company profile (Pitch Deck)"
                     },
                     "data.MODAL_CONFIG.roi-excel.ctaLabel": {
-                        "vi": "Gửi bảng tính Excel qua Email"
+                        "vi": "Gửi bảng tính Excel qua Email",
+                        "en": "Send the Excel model by email"
                     },
                     "data.MODAL_CONFIG.roi-excel.salesTeam": {
-                        "vi": "Đội ngũ Phát triển Mặt bằng Thương mại"
+                        "vi": "Đội ngũ Phát triển Mặt bằng Thương mại",
+                        "en": "Commercial Venue team"
                     },
                     "data.MODAL_CONFIG.roi-excel.subtitle": {
-                        "vi": "File Excel cho phép điều chỉnh linh hoạt chi phí thuê mặt bằng, nhân sự ca trực, lịch bảo trì và tỷ lệ chia sẻ doanh thu 70/30."
+                        "vi": "File Excel cho phép điều chỉnh linh hoạt chi phí thuê mặt bằng, nhân sự ca trực, lịch bảo trì và tỷ lệ chia sẻ doanh thu 70/30.",
+                        "en": "The Excel file lets you adjust rent, shift staffing, maintenance schedule and the 70/30 revenue share."
                     },
                     "data.MODAL_CONFIG.roi-excel.successDetail": {
-                        "vi": "Mẫu Excel dự phóng dòng tiền theo cấu hình kính anh/chị đã chọn đã được gửi qua email và chuyển tới chuyên viên mảng Mặt bằng."
+                        "vi": "Mẫu Excel dự phóng dòng tiền theo cấu hình kính anh/chị đã chọn đã được gửi qua email và chuyển tới chuyên viên mảng Mặt bằng.",
+                        "en": "The cash-flow forecast for your chosen headset configuration has been emailed to you and passed to our venue specialist."
                     },
                     "data.MODAL_CONFIG.roi-excel.successTitle": {
-                        "vi": "Đã gửi bảng tính dự phóng 5 năm"
+                        "vi": "Đã gửi bảng tính dự phóng 5 năm",
+                        "en": "5-year forecast sent"
                     },
                     "data.MODAL_CONFIG.roi-excel.title": {
-                        "vi": "Nhận bảng tính Excel dự phóng 5 năm"
+                        "vi": "Nhận bảng tính Excel dự phóng 5 năm",
+                        "en": "Get the 5-year Excel forecast"
                     }
                 },
                 "images": [],
@@ -976,88 +1086,115 @@
                 "template": "text.data.PLATFORM_MODES",
                 "fields": {
                     "data.PLATFORM_MODES.arena.badgeLabel": {
-                        "vi": "Đấu trường Thương mại"
+                        "vi": "Đấu trường Thương mại",
+                        "en": "Commercial arena"
                     },
                     "data.PLATFORM_MODES.arena.contentTitle": {
-                        "vi": "Đấu trường Không dây 6v6"
+                        "vi": "Đấu trường Không dây 6v6",
+                        "en": "Wireless 6v6 arena"
                     },
                     "data.PLATFORM_MODES.arena.sessionDuration": {
-                        "vi": "12 phút / trận"
+                        "vi": "12 phút / trận",
+                        "en": "12 min / match"
                     },
                     "data.PLATFORM_MODES.arena.steps.0.detail": {
-                        "vi": "Chia 2 đội & chọn bản đồ."
+                        "vi": "Chia 2 đội & chọn bản đồ.",
+                        "en": "Split into 2 teams & pick a map."
                     },
                     "data.PLATFORM_MODES.arena.steps.0.label": {
-                        "vi": "Chuẩn bị nhóm"
+                        "vi": "Chuẩn bị nhóm",
+                        "en": "Prepare group"
                     },
                     "data.PLATFORM_MODES.arena.steps.1.detail": {
-                        "vi": "Di chuyển tự do không dây."
+                        "vi": "Di chuyển tự do không dây.",
+                        "en": "Move freely, no wires."
                     },
                     "data.PLATFORM_MODES.arena.steps.1.label": {
-                        "vi": "Bắt đầu phiên"
+                        "vi": "Bắt đầu phiên",
+                        "en": "Start session"
                     },
                     "data.PLATFORM_MODES.arena.steps.2.detail": {
-                        "vi": "Phát bảng điểm ra màn hình sảnh."
+                        "vi": "Phát bảng điểm ra màn hình sảnh.",
+                        "en": "Show the scoreboard on the lobby screen."
                     },
                     "data.PLATFORM_MODES.arena.steps.2.label": {
-                        "vi": "Theo dõi"
+                        "vi": "Theo dõi",
+                        "en": "Monitor"
                     },
                     "data.PLATFORM_MODES.arena.steps.3.detail": {
-                        "vi": "Chốt ca & đón nhóm tiếp theo."
+                        "vi": "Chốt ca & đón nhóm tiếp theo.",
+                        "en": "Close the round & welcome the next group."
                     },
                     "data.PLATFORM_MODES.arena.steps.3.label": {
-                        "vi": "Xoay vòng"
+                        "vi": "Xoay vòng",
+                        "en": "Rotate"
                     },
                     "data.PLATFORM_MODES.arena.tabLabel": {
-                        "vi": "Omega Arena - Giải trí"
+                        "vi": "Omega Arena - Giải trí",
+                        "en": "Omega Arena - Entertainment"
                     },
                     "data.PLATFORM_MODES.arena.throughputEstimate": {
-                        "vi": "48 vé/giờ"
+                        "vi": "48 vé/giờ",
+                        "en": "48 tickets/hour"
                     },
                     "data.PLATFORM_MODES.arena.venueExample": {
                         "vi": "Landmark 81 · Lotte Center"
                     },
                     "data.PLATFORM_MODES.journey.badgeLabel": {
-                        "vi": "Văn hóa & Du lịch"
+                        "vi": "Văn hóa & Du lịch",
+                        "en": "Culture & Tourism"
                     },
                     "data.PLATFORM_MODES.journey.contentTitle": {
-                        "vi": "Hành trình Di sản & Triển lãm Số"
+                        "vi": "Hành trình Di sản & Triển lãm Số",
+                        "en": "Heritage journey & digital exhibition"
                     },
                     "data.PLATFORM_MODES.journey.sessionDuration": {
-                        "vi": "5 phút / phiên"
+                        "vi": "5 phút / phiên",
+                        "en": "5 min / session"
                     },
                     "data.PLATFORM_MODES.journey.steps.0.detail": {
-                        "vi": "Giao 15 kính cho đoàn khách."
+                        "vi": "Giao 15 kính cho đoàn khách.",
+                        "en": "Hand 15 headsets to the group."
                     },
                     "data.PLATFORM_MODES.journey.steps.0.label": {
-                        "vi": "Chuẩn bị nhóm"
+                        "vi": "Chuẩn bị nhóm",
+                        "en": "Prepare group"
                     },
                     "data.PLATFORM_MODES.journey.steps.1.detail": {
-                        "vi": "Phát đồng bộ chỉ bằng 1 chạm."
+                        "vi": "Phát đồng bộ chỉ bằng 1 chạm.",
+                        "en": "Start everyone with a single tap."
                     },
                     "data.PLATFORM_MODES.journey.steps.1.label": {
-                        "vi": "Bắt đầu phiên"
+                        "vi": "Bắt đầu phiên",
+                        "en": "Start session"
                     },
                     "data.PLATFORM_MODES.journey.steps.2.detail": {
-                        "vi": "Quan sát trực quan trên Tablet."
+                        "vi": "Quan sát trực quan trên Tablet.",
+                        "en": "Watch everything on the tablet."
                     },
                     "data.PLATFORM_MODES.journey.steps.2.label": {
-                        "vi": "Theo dõi"
+                        "vi": "Theo dõi",
+                        "en": "Monitor"
                     },
                     "data.PLATFORM_MODES.journey.steps.3.detail": {
-                        "vi": "Sẵn sàng đón lượt khách mới."
+                        "vi": "Sẵn sàng đón lượt khách mới.",
+                        "en": "Ready for the next group."
                     },
                     "data.PLATFORM_MODES.journey.steps.3.label": {
-                        "vi": "Xoay vòng"
+                        "vi": "Xoay vòng",
+                        "en": "Rotate"
                     },
                     "data.PLATFORM_MODES.journey.tabLabel": {
-                        "vi": "Holomia Journey - Di sản"
+                        "vi": "Holomia Journey - Di sản",
+                        "en": "Holomia Journey - Heritage"
                     },
                     "data.PLATFORM_MODES.journey.throughputEstimate": {
-                        "vi": "180 lượt/giờ"
+                        "vi": "180 lượt/giờ",
+                        "en": "180 guests/hour"
                     },
                     "data.PLATFORM_MODES.journey.venueExample": {
-                        "vi": "Bưu điện Hà Nội · Sơn Đoòng"
+                        "vi": "Bưu điện Hà Nội · Sơn Đoòng",
+                        "en": "Hanoi Post Office · Son Doong"
                     }
                 },
                 "images": [],
@@ -1070,85 +1207,107 @@
                 "template": "text.data.VENUE_MODES",
                 "fields": {
                     "data.VENUE_MODES.arena.description": {
-                        "vi": "Chọn nội dung giải trí, tổ chức đội và khởi chạy phiên chơi trên cùng mặt bằng."
+                        "vi": "Chọn nội dung giải trí, tổ chức đội và khởi chạy phiên chơi trên cùng mặt bằng.",
+                        "en": "Pick entertainment content, form teams and start play sessions on the same floor."
                     },
                     "data.VENUE_MODES.arena.imageAlt": {
-                        "vi": "Đấu trường nhóm không dây Omega Arena tại trung tâm thương mại"
+                        "vi": "Đấu trường nhóm không dây Omega Arena tại trung tâm thương mại",
+                        "en": "Wireless Omega Arena group arena in a shopping mall"
                     },
                     "data.VENUE_MODES.arena.kicker": {
-                        "vi": "GIẢI TRÍ · SÀN CHƠI NHÓM"
+                        "vi": "GIẢI TRÍ · SÀN CHƠI NHÓM",
+                        "en": "ENTERTAINMENT · GROUP PLAY"
                     },
                     "data.VENUE_MODES.arena.metrics.0.label": {
-                        "vi": "Giới hạn thiết bị"
+                        "vi": "Giới hạn thiết bị",
+                        "en": "Device limit"
                     },
                     "data.VENUE_MODES.arena.metrics.1.label": {
-                        "vi": "Điều phối phiên"
+                        "vi": "Điều phối phiên",
+                        "en": "Session control"
                     },
                     "data.VENUE_MODES.arena.metrics.1.value": {
-                        "vi": "Theo đội"
+                        "vi": "Theo đội",
+                        "en": "By team"
                     },
                     "data.VENUE_MODES.arena.metrics.2.label": {
-                        "vi": "Điểm điều khiển"
+                        "vi": "Điểm điều khiển",
+                        "en": "Control point"
                     },
                     "data.VENUE_MODES.arena.metrics.2.value": {
                         "vi": "Tablet"
                     },
                     "data.VENUE_MODES.arena.sessionCycle": {
-                        "vi": "12 phút / trận · Bảng điểm trực tiếp"
+                        "vi": "12 phút / trận · Bảng điểm trực tiếp",
+                        "en": "12 min / match · Live scoreboard"
                     },
                     "data.VENUE_MODES.arena.switchTime": {
-                        "vi": "1 chạm trên Tablet · Không tháo lắp phần cứng"
+                        "vi": "1 chạm trên Tablet · Không tháo lắp phần cứng",
+                        "en": "1 tap on the tablet · No hardware changes"
                     },
                     "data.VENUE_MODES.arena.tabLabel": {
                         "vi": "Omega Arena"
                     },
                     "data.VENUE_MODES.arena.targetAudience": {
-                        "vi": "Nhóm bạn trẻ, đồng nghiệp & game thủ"
+                        "vi": "Nhóm bạn trẻ, đồng nghiệp & game thủ",
+                        "en": "Friends, colleagues & gamers"
                     },
                     "data.VENUE_MODES.arena.timeSlot": {
-                        "vi": "Buổi tối & Cuối tuần · 17:30 – 22:00"
+                        "vi": "Buổi tối & Cuối tuần · 17:30 – 22:00",
+                        "en": "Evenings & weekends · 17:30 – 22:00"
                     },
                     "data.VENUE_MODES.arena.title": {
                         "vi": "Omega Arena"
                     },
                     "data.VENUE_MODES.journey.description": {
-                        "vi": "Chia nhóm theo tuyến, đồng bộ nội dung và chuyển chặng theo kịch bản."
+                        "vi": "Chia nhóm theo tuyến, đồng bộ nội dung và chuyển chặng theo kịch bản.",
+                        "en": "Split groups by route, sync content and move between stages by script."
                     },
                     "data.VENUE_MODES.journey.imageAlt": {
-                        "vi": "Trải nghiệm di sản Holomia Journey theo tuyến"
+                        "vi": "Trải nghiệm di sản Holomia Journey theo tuyến",
+                        "en": "Holomia Journey heritage experience by route"
                     },
                     "data.VENUE_MODES.journey.kicker": {
-                        "vi": "DI SẢN · TUYẾN TRẢI NGHIỆM"
+                        "vi": "DI SẢN · TUYẾN TRẢI NGHIỆM",
+                        "en": "HERITAGE · GUIDED ROUTE"
                     },
                     "data.VENUE_MODES.journey.metrics.0.label": {
-                        "vi": "Giới hạn thiết bị"
+                        "vi": "Giới hạn thiết bị",
+                        "en": "Device limit"
                     },
                     "data.VENUE_MODES.journey.metrics.1.label": {
-                        "vi": "Điều phối phiên"
+                        "vi": "Điều phối phiên",
+                        "en": "Session control"
                     },
                     "data.VENUE_MODES.journey.metrics.1.value": {
-                        "vi": "Theo tuyến"
+                        "vi": "Theo tuyến",
+                        "en": "By route"
                     },
                     "data.VENUE_MODES.journey.metrics.2.label": {
-                        "vi": "Điểm điều khiển"
+                        "vi": "Điểm điều khiển",
+                        "en": "Control point"
                     },
                     "data.VENUE_MODES.journey.metrics.2.value": {
                         "vi": "Tablet"
                     },
                     "data.VENUE_MODES.journey.sessionCycle": {
-                        "vi": "5–8 phút / lượt · Xoay vòng liên tục"
+                        "vi": "5–8 phút / lượt · Xoay vòng liên tục",
+                        "en": "5–8 min / round · Continuous rotation"
                     },
                     "data.VENUE_MODES.journey.switchTime": {
-                        "vi": "1 chạm trên Tablet · Giữ nguyên sàn đấu"
+                        "vi": "1 chạm trên Tablet · Giữ nguyên sàn đấu",
+                        "en": "1 tap on the tablet · Same floor setup"
                     },
                     "data.VENUE_MODES.journey.tabLabel": {
                         "vi": "Holomia Journey"
                     },
                     "data.VENUE_MODES.journey.targetAudience": {
-                        "vi": "Gia đình, học sinh & khách tham quan"
+                        "vi": "Gia đình, học sinh & khách tham quan",
+                        "en": "Families, students & visitors"
                     },
                     "data.VENUE_MODES.journey.timeSlot": {
-                        "vi": "Ban ngày · 09:00 – 17:00"
+                        "vi": "Ban ngày · 09:00 – 17:00",
+                        "en": "Daytime · 09:00 – 17:00"
                     },
                     "data.VENUE_MODES.journey.title": {
                         "vi": "Holomia Journey"
@@ -1164,34 +1323,44 @@
                 "template": "text.lead",
                 "fields": {
                     "lead.001": {
-                        "vi": "Họ và tên *"
+                        "vi": "Họ và tên *",
+                        "en": "Full name *"
                     },
                     "lead.002": {
-                        "vi": "Số điện thoại / Zalo *"
+                        "vi": "Số điện thoại / Zalo *",
+                        "en": "Phone / Zalo *"
                     },
                     "lead.003": {
-                        "vi": "Email nhận tài liệu *"
+                        "vi": "Email nhận tài liệu *",
+                        "en": "Email to receive documents *"
                     },
                     "lead.004": {
-                        "vi": "Tên Công ty / Đơn vị"
+                        "vi": "Tên Công ty / Đơn vị",
+                        "en": "Company / Organisation"
                     },
                     "lead.005": {
-                        "vi": "Email nhận:"
+                        "vi": "Email nhận:",
+                        "en": "Sent to:"
                     },
                     "lead.006": {
-                        "vi": "Phân loại tự động:"
+                        "vi": "Phân loại tự động:",
+                        "en": "Routed to:"
                     },
                     "lead.007": {
-                        "vi": "Đóng cửa sổ"
+                        "vi": "Đóng cửa sổ",
+                        "en": "Close window"
                     },
                     "lead.008": {
-                        "vi": "Đóng hộp thoại"
+                        "vi": "Đóng hộp thoại",
+                        "en": "Close dialog"
                     },
                     "lead.009": {
-                        "vi": "Nguyễn Minh Anh"
+                        "vi": "Nguyễn Minh Anh",
+                        "en": "Jane Nguyen"
                     },
                     "lead.010": {
-                        "vi": "Tên doanh nghiệp hoặc Agency"
+                        "vi": "Tên doanh nghiệp hoặc Agency",
+                        "en": "Company or agency name"
                     }
                 },
                 "images": [],
@@ -1204,49 +1373,64 @@
                 "template": "text.livinglab",
                 "fields": {
                     "livinglab.001": {
-                        "vi": "Đã nhận yêu cầu đặt lịch"
+                        "vi": "Đã nhận yêu cầu đặt lịch",
+                        "en": "Booking request received"
                     },
                     "livinglab.002": {
-                        "vi": "Chuyển tiếp tới"
+                        "vi": "Chuyển tiếp tới",
+                        "en": "Forwarded to"
                     },
                     "livinglab.003": {
-                        "vi": "Đặt lịch khác"
+                        "vi": "Đặt lịch khác",
+                        "en": "Book another time"
                     },
                     "livinglab.004": {
-                        "vi": "Họ tên *"
+                        "vi": "Họ tên *",
+                        "en": "Full name *"
                     },
                     "livinglab.005": {
-                        "vi": "Số điện thoại / Zalo *"
+                        "vi": "Số điện thoại / Zalo *",
+                        "en": "Phone / Zalo *"
                     },
                     "livinglab.006": {
-                        "vi": "Tên Công ty / Tổ chức *"
+                        "vi": "Tên Công ty / Tổ chức *",
+                        "en": "Company / Organisation *"
                     },
                     "livinglab.007": {
-                        "vi": "Nhu cầu quan tâm"
+                        "vi": "Nhu cầu quan tâm",
+                        "en": "I am interested in"
                     },
                     "livinglab.008": {
-                        "vi": "Tổ chức Sự kiện"
+                        "vi": "Tổ chức Sự kiện",
+                        "en": "Organising an event"
                     },
                     "livinglab.009": {
-                        "vi": "Hợp tác Mặt bằng"
+                        "vi": "Hợp tác Mặt bằng",
+                        "en": "Venue partnership"
                     },
                     "livinglab.010": {
-                        "vi": "Dự án Du lịch & Custom"
+                        "vi": "Dự án Du lịch & Custom",
+                        "en": "Tourism & custom project"
                     },
                     "livinglab.011": {
-                        "vi": "Chọn địa điểm & khung giờ 30 phút"
+                        "vi": "Chọn địa điểm & khung giờ 30 phút",
+                        "en": "Choose a location & 30-minute slot"
                     },
                     "livinglab.012": {
-                        "vi": "Đồng ý để Holomia liên hệ xác nhận lịch hẹn."
+                        "vi": "Đồng ý để Holomia liên hệ xác nhận lịch hẹn.",
+                        "en": "I agree that Holomia may contact me to confirm the appointment."
                     },
                     "livinglab.013": {
-                        "vi": "Gửi yêu cầu đặt lịch"
+                        "vi": "Gửi yêu cầu đặt lịch",
+                        "en": "Send booking request"
                     },
                     "livinglab.014": {
-                        "vi": "Nguyễn Minh Anh"
+                        "vi": "Nguyễn Minh Anh",
+                        "en": "Jane Nguyen"
                     },
                     "livinglab.015": {
-                        "vi": "Tên doanh nghiệp hoặc Agency"
+                        "vi": "Tên doanh nghiệp hoặc Agency",
+                        "en": "Company or agency name"
                     }
                 },
                 "images": [],
@@ -1262,79 +1446,104 @@
                         "vi": "Holomia Platform"
                     },
                     "platform.002": {
-                        "vi": "1 Tablet điều khiển đồng thời 100 kính"
+                        "vi": "1 Tablet điều khiển đồng thời 100 kính",
+                        "en": "1 tablet controls 100 headsets at once"
                     },
                     "platform.003": {
-                        "vi": "Không dây · Không ba lô · Triển khai linh hoạt mọi mặt bằng."
+                        "vi": "Không dây · Không ba lô · Triển khai linh hoạt mọi mặt bằng.",
+                        "en": "Wireless · No backpack · Flexible deployment in any space."
                     },
                     "platform.004": {
-                        "vi": "Thử Tablet tại Showroom"
+                        "vi": "Thử Tablet tại Showroom",
+                        "en": "Try the tablet at our Showroom"
                     },
                     "platform.005": {
-                        "vi": "Tải Pitch Deck"
+                        "vi": "Tải Pitch Deck",
+                        "en": "Download Pitch Deck"
                     },
                     "platform.006": {
-                        "vi": "Quy mô mặt bằng & Cấu hình"
+                        "vi": "Quy mô mặt bằng & Cấu hình",
+                        "en": "Floor size & configuration"
                     },
                     "platform.007": {
-                        "vi": "Tùy biến linh hoạt từ 50 m² đến 300 m²"
+                        "vi": "Tùy biến linh hoạt từ 50 m² đến 300 m²",
+                        "en": "Scales flexibly from 50 m² to 300 m²"
                     },
                     "platform.008": {
-                        "vi": "Số lượng kính"
+                        "vi": "Số lượng kính",
+                        "en": "Headsets"
                     },
                     "platform.009": {
-                        "vi": "Công suất phục vụ"
+                        "vi": "Công suất phục vụ",
+                        "en": "Throughput"
                     },
                     "platform.010": {
-                        "vi": "Điện năng"
+                        "vi": "Điện năng",
+                        "en": "Power"
                     },
                     "platform.011": {
-                        "vi": "Phù hợp"
+                        "vi": "Phù hợp",
+                        "en": "Best for"
                     },
                     "platform.012": {
-                        "vi": "Xem video vận hành Journey & Arena"
+                        "vi": "Xem video vận hành Journey & Arena",
+                        "en": "Watch Journey & Arena in operation"
                     },
                     "platform.013": {
-                        "vi": "Chuyển nhanh giữa hai luồng video hoặc bấm thử giao diện Tablet."
+                        "vi": "Chuyển nhanh giữa hai luồng video hoặc bấm thử giao diện Tablet.",
+                        "en": "Switch between the two demo reels or try the tablet interface."
                     },
                     "platform.014": {
-                        "vi": "Báo cáo Vận hành"
+                        "vi": "Báo cáo Vận hành",
+                        "en": "Operations report"
                     },
                     "platform.015": {
-                        "vi": "Minh bạch từng lượt khách theo ca"
+                        "vi": "Minh bạch từng lượt khách theo ca",
+                        "en": "Transparent guest counts by shift"
                     },
                     "platform.016": {
-                        "vi": "Theo ngày"
+                        "vi": "Theo ngày",
+                        "en": "Daily"
                     },
                     "platform.017": {
-                        "vi": "7 ngày qua"
+                        "vi": "7 ngày qua",
+                        "en": "Last 7 days"
                     },
                     "platform.018": {
-                        "vi": "Tổng lượt khách"
+                        "vi": "Tổng lượt khách",
+                        "en": "Total guests"
                     },
                     "platform.019": {
-                        "vi": "Số phiên đã chạy"
+                        "vi": "Số phiên đã chạy",
+                        "en": "Sessions run"
                     },
                     "platform.020": {
-                        "vi": "Xoay vòng trung bình"
+                        "vi": "Xoay vòng trung bình",
+                        "en": "Average turnaround"
                     },
                     "platform.021": {
-                        "vi": "42 giây"
+                        "vi": "42 giây",
+                        "en": "42 seconds"
                     },
                     "platform.022": {
-                        "vi": "Ca trực"
+                        "vi": "Ca trực",
+                        "en": "Shift"
                     },
                     "platform.023": {
-                        "vi": "Chế độ"
+                        "vi": "Chế độ",
+                        "en": "Mode"
                     },
                     "platform.024": {
-                        "vi": "Số phiên"
+                        "vi": "Số phiên",
+                        "en": "Sessions"
                     },
                     "platform.025": {
-                        "vi": "Lượt khách"
+                        "vi": "Lượt khách",
+                        "en": "Guests"
                     },
                     "platform.026": {
-                        "vi": "Ổn định"
+                        "vi": "Ổn định",
+                        "en": "Uptime"
                     }
                 },
                 "images": [],
@@ -1347,7 +1556,8 @@
                 "template": "text.platformvideo",
                 "fields": {
                     "platformvideo.001": {
-                        "vi": "Quay lại Video Demo"
+                        "vi": "Quay lại Video Demo",
+                        "en": "Back to video demo"
                     },
                     "platformvideo.002": {
                         "vi": "Holomia Journey"
@@ -1356,10 +1566,12 @@
                         "vi": "Omega Arena"
                     },
                     "platformvideo.004": {
-                        "vi": "Thử bấm Tablet"
+                        "vi": "Thử bấm Tablet",
+                        "en": "Try the tablet"
                     },
                     "platformvideo.005": {
-                        "vi": "Chọn video mô phỏng chế độ"
+                        "vi": "Chọn video mô phỏng chế độ",
+                        "en": "Choose demo mode"
                     }
                 },
                 "images": [],
@@ -1372,52 +1584,67 @@
                 "template": "text.roi",
                 "fields": {
                     "roi.001": {
-                        "vi": "Số lượng kính"
+                        "vi": "Số lượng kính",
+                        "en": "Headsets"
                     },
                     "roi.002": {
-                        "vi": "Giá vé dự kiến"
+                        "vi": "Giá vé dự kiến",
+                        "en": "Expected ticket price"
                     },
                     "roi.003": {
-                        "vi": "Điều chỉnh giả định"
+                        "vi": "Điều chỉnh giả định",
+                        "en": "Adjust assumptions"
                     },
                     "roi.004": {
-                        "vi": "Ngày mở/tháng"
+                        "vi": "Ngày mở/tháng",
+                        "en": "Open days/month"
                     },
                     "roi.005": {
-                        "vi": "22 ngày"
+                        "vi": "22 ngày",
+                        "en": "22 days"
                     },
                     "roi.006": {
-                        "vi": "26 ngày"
+                        "vi": "26 ngày",
+                        "en": "26 days"
                     },
                     "roi.007": {
-                        "vi": "30 ngày"
+                        "vi": "30 ngày",
+                        "en": "30 days"
                     },
                     "roi.008": {
-                        "vi": "Tỷ lệ lấp đầy"
+                        "vi": "Tỷ lệ lấp đầy",
+                        "en": "Occupancy rate"
                     },
                     "roi.009": {
-                        "vi": "Tỷ lệ giữ lại"
+                        "vi": "Tỷ lệ giữ lại",
+                        "en": "Revenue share kept"
                     },
                     "roi.010": {
                         "vi": "30% (Rev-share)"
                     },
                     "roi.011": {
-                        "vi": "45% (Tự vận hành)"
+                        "vi": "45% (Tự vận hành)",
+                        "en": "45% (self-operated)"
                     },
                     "roi.012": {
-                        "vi": "Doanh thu ước tính / tháng"
+                        "vi": "Doanh thu ước tính / tháng",
+                        "en": "Estimated monthly revenue"
                     },
                     "roi.013": {
-                        "vi": "Hoàn vốn dự kiến"
+                        "vi": "Hoàn vốn dự kiến",
+                        "en": "Expected payback"
                     },
                     "roi.014": {
-                        "vi": "Lũy kế hoàn vốn 12 tháng"
+                        "vi": "Lũy kế hoàn vốn 12 tháng",
+                        "en": "12-month cumulative payback"
                     },
                     "roi.015": {
-                        "vi": "Mục tiêu: 100%"
+                        "vi": "Mục tiêu: 100%",
+                        "en": "Target: 100%"
                     },
                     "roi.016": {
-                        "vi": "Nhận bảng tính Excel chi tiết 5 năm qua Email"
+                        "vi": "Nhận bảng tính Excel chi tiết 5 năm qua Email",
+                        "en": "Get the detailed 5-year Excel by email"
                     }
                 },
                 "images": [],
@@ -1433,19 +1660,24 @@
                         "vi": "Living Lab"
                     },
                     "showroom.002": {
-                        "vi": "30 phút tự tay vận hành sàn chơi 1-ra-100"
+                        "vi": "30 phút tự tay vận hành sàn chơi 1-ra-100",
+                        "en": "30 minutes running a 1-to-100 arena yourself"
                     },
                     "showroom.003": {
-                        "vi": "01–10′ · Đeo kính trải nghiệm Journey & Arena"
+                        "vi": "01–10′ · Đeo kính trải nghiệm Journey & Arena",
+                        "en": "01–10′ · Try Journey & Arena in the headset"
                     },
                     "showroom.004": {
-                        "vi": "11–20′ · Cầm Tablet điều phối cụm thiết bị"
+                        "vi": "11–20′ · Cầm Tablet điều phối cụm thiết bị",
+                        "en": "11–20′ · Control the device cluster from the tablet"
                     },
                     "showroom.005": {
-                        "vi": "21–30′ · Tư vấn cấu hình & dự toán miễn phí"
+                        "vi": "21–30′ · Tư vấn cấu hình & dự toán miễn phí",
+                        "en": "21–30′ · Free configuration advice & estimate"
                     },
                     "showroom.006": {
-                        "vi": "Địa điểm đón khách B2B"
+                        "vi": "Địa điểm đón khách B2B",
+                        "en": "B2B visit locations"
                     }
                 },
                 "images": [],
@@ -1470,142 +1702,185 @@
                         "vi": "Holomia Event"
                     },
                     "solutions.005": {
-                        "vi": "VR trọn gói cho sự kiện lưu lượng lớn"
+                        "vi": "VR trọn gói cho sự kiện lưu lượng lớn",
+                        "en": "Turnkey VR for high-traffic events"
                     },
                     "solutions.006": {
-                        "vi": "Thiết bị, nội dung và đội ngũ điều phối trọn gói tại sự kiện."
+                        "vi": "Thiết bị, nội dung và đội ngũ điều phối trọn gói tại sự kiện.",
+                        "en": "Hardware, content and an operations crew, all included at your event."
                     },
                     "solutions.007": {
-                        "vi": "Nhận Rate Card Agency"
+                        "vi": "Nhận Rate Card Agency",
+                        "en": "Get the agency rate card"
                     },
                     "solutions.008": {
                         "vi": "HOLOMIA VENUE"
                     },
                     "solutions.009": {
-                        "vi": "Khai thác sàn VR thương mại"
+                        "vi": "Khai thác sàn VR thương mại",
+                        "en": "Run a commercial VR arena"
                     },
                     "solutions.010": {
-                        "vi": "Đón khách khám phá với Holomia Journey và mở phiên giải trí nhóm với Omega Arena trên cùng mặt bằng tương thích."
+                        "vi": "Đón khách khám phá với Holomia Journey và mở phiên giải trí nhóm với Omega Arena trên cùng mặt bằng tương thích.",
+                        "en": "Welcome explorers with Holomia Journey and open group entertainment with Omega Arena on the same compatible floor."
                     },
                     "solutions.011": {
-                        "vi": "Tính thử hoàn vốn"
+                        "vi": "Tính thử hoàn vốn",
+                        "en": "Estimate payback"
                     },
                     "solutions.012": {
-                        "vi": "Đặt lịch khảo sát mặt bằng"
+                        "vi": "Đặt lịch khảo sát mặt bằng",
+                        "en": "Book a site survey"
                     },
                     "solutions.013": {
                         "vi": "Holomia Custom"
                     },
                     "solutions.014": {
-                        "vi": "VR5D/9D, Vali VR Kit & Số hóa Di sản"
+                        "vi": "VR5D/9D, Vali VR Kit & Số hóa Di sản",
+                        "en": "VR5D/9D, VR Kit case & heritage digitisation"
                     },
                     "solutions.015": {
-                        "vi": "Phần cứng và nội dung độc quyền cho bảo tàng, du lịch và triển lãm quốc tế."
+                        "vi": "Phần cứng và nội dung độc quyền cho bảo tàng, du lịch và triển lãm quốc tế.",
+                        "en": "Exclusive hardware and content for museums, tourism and international exhibitions."
                     },
                     "solutions.016": {
-                        "vi": "Trao đổi dự án riêng"
+                        "vi": "Trao đổi dự án riêng",
+                        "en": "Discuss a custom project"
                     },
                     "solutions.017": {
-                        "vi": "Ba gói sự kiện chuẩn"
+                        "vi": "Ba gói sự kiện chuẩn",
+                        "en": "Three standard event packages"
                     },
                     "solutions.018": {
-                        "vi": "Giá tham chiếu sự kiện 2 ngày."
+                        "vi": "Giá tham chiếu sự kiện 2 ngày.",
+                        "en": "Reference prices for a 2-day event."
                     },
                     "solutions.019": {
-                        "vi": "Hạng mục"
+                        "vi": "Hạng mục",
+                        "en": "Item"
                     },
                     "solutions.020": {
-                        "vi": "· Phổ biến"
+                        "vi": "· Phổ biến",
+                        "en": "· Most popular"
                     },
                     "solutions.021": {
-                        "vi": "Quy mô"
+                        "vi": "Quy mô",
+                        "en": "Scale"
                     },
                     "solutions.022": {
-                        "vi": "Lượt/ngày"
+                        "vi": "Lượt/ngày",
+                        "en": "Guests/day"
                     },
                     "solutions.023": {
-                        "vi": "Nhân sự"
+                        "vi": "Nhân sự",
+                        "en": "Staff"
                     },
                     "solutions.024": {
-                        "vi": "Nội dung"
+                        "vi": "Nội dung",
+                        "en": "Content"
                     },
                     "solutions.025": {
-                        "vi": "Trọn gói 2 ngày"
+                        "vi": "Trọn gói 2 ngày",
+                        "en": "2-day package"
                     },
                     "solutions.026": {
-                        "vi": "Ngày bổ sung"
+                        "vi": "Ngày bổ sung",
+                        "en": "Extra day"
                     },
                     "solutions.027": {
-                        "vi": "Chính sách Event Agency"
+                        "vi": "Chính sách Event Agency",
+                        "en": "Event agency policy"
                     },
                     "solutions.028": {
-                        "vi": "Logo thương hiệu trên kính, check-in QR và chiết khấu đối tác."
+                        "vi": "Logo thương hiệu trên kính, check-in QR và chiết khấu đối tác.",
+                        "en": "Your brand on the headsets, QR check-in and partner discounts."
                     },
                     "solutions.029": {
-                        "vi": "Nhận Rate Card Agency"
+                        "vi": "Nhận Rate Card Agency",
+                        "en": "Get the agency rate card"
                     },
                     "solutions.030": {
-                        "vi": "Hai hình thức hợp tác"
+                        "vi": "Hai hình thức hợp tác",
+                        "en": "Two partnership models"
                     },
                     "solutions.031": {
-                        "vi": "Phương án 01"
+                        "vi": "Phương án 01",
+                        "en": "Option 01"
                     },
                     "solutions.032": {
-                        "vi": "Chia sẻ doanh thu"
+                        "vi": "Chia sẻ doanh thu",
+                        "en": "Revenue sharing"
                     },
                     "solutions.033": {
-                        "vi": "Tham chiếu phương án 70/30. Tỷ lệ của mỗi bên, trách nhiệm đầu tư và chi phí vận hành được thống nhất theo địa điểm."
+                        "vi": "Tham chiếu phương án 70/30. Tỷ lệ của mỗi bên, trách nhiệm đầu tư và chi phí vận hành được thống nhất theo địa điểm.",
+                        "en": "Based on a 70/30 split. Each party's share, investment and operating costs are agreed per site."
                     },
                     "solutions.034": {
-                        "vi": "Phương án 02"
+                        "vi": "Phương án 02",
+                        "en": "Option 02"
                     },
                     "solutions.035": {
-                        "vi": "Cấp phép hằng năm"
+                        "vi": "Cấp phép hằng năm",
+                        "en": "Annual licence"
                     },
                     "solutions.036": {
-                        "vi": "Đối tác chủ động đầu tư và kinh doanh. Holomia cung cấp nền tảng, nội dung được cấp phép, chuyển giao và hỗ trợ theo hợp đồng."
+                        "vi": "Đối tác chủ động đầu tư và kinh doanh. Holomia cung cấp nền tảng, nội dung được cấp phép, chuyển giao và hỗ trợ theo hợp đồng.",
+                        "en": "The partner invests and operates. Holomia provides the platform, licensed content, handover and contractual support."
                     },
                     "solutions.037": {
-                        "vi": "Bước tiếp theo · Khảo sát mặt bằng thực tế"
+                        "vi": "Bước tiếp theo · Khảo sát mặt bằng thực tế",
+                        "en": "Next step · On-site survey"
                     },
                     "solutions.038": {
-                        "vi": "Đánh giá diện tích, tuyến khách, năng lực mạng, tủ kính và khung giờ để lập dự phóng chi tiết cho từng địa điểm."
+                        "vi": "Đánh giá diện tích, tuyến khách, năng lực mạng, tủ kính và khung giờ để lập dự phóng chi tiết cho từng địa điểm.",
+                        "en": "We assess floor area, visitor flow, network capacity, headset cabinets and opening hours to build a detailed forecast for each site."
                     },
                     "solutions.039": {
-                        "vi": "Hẹn trao đổi phương án"
+                        "vi": "Hẹn trao đổi phương án",
+                        "en": "Arrange a discussion"
                     },
                     "solutions.040": {
-                        "vi": "DỰ PHÓNG CHO CHỦ MẶT BẰNG"
+                        "vi": "DỰ PHÓNG CHO CHỦ MẶT BẰNG",
+                        "en": "FORECAST FOR VENUE OWNERS"
                     },
                     "solutions.041": {
-                        "vi": "Mặt bằng của anh chị có thể mang về bao nhiêu?"
+                        "vi": "Mặt bằng của anh chị có thể mang về bao nhiêu?",
+                        "en": "How much could your venue earn?"
                     },
                     "solutions.042": {
-                        "vi": "Chọn số kính và giá vé để ước tính doanh thu theo tháng và thời gian hoàn vốn dự kiến theo mô hình hợp tác của địa điểm."
+                        "vi": "Chọn số kính và giá vé để ước tính doanh thu theo tháng và thời gian hoàn vốn dự kiến theo mô hình hợp tác của địa điểm.",
+                        "en": "Choose headset count and ticket price to estimate monthly revenue and payback under the site's partnership model."
                     },
                     "solutions.043": {
-                        "vi": "Điểm đến thương mại"
+                        "vi": "Điểm đến thương mại",
+                        "en": "Commercial destinations"
                     },
                     "solutions.044": {
-                        "vi": "Xem tất cả dự án"
+                        "vi": "Xem tất cả dự án",
+                        "en": "View all projects"
                     },
                     "solutions.045": {
-                        "vi": "Điểm đến thương mại"
+                        "vi": "Điểm đến thương mại",
+                        "en": "Commercial destinations"
                     },
                     "solutions.046": {
                         "vi": "Landmark 81 & Lotte Center"
                     },
                     "solutions.047": {
-                        "vi": "Vận hành chia sẻ doanh thu dài hạn"
+                        "vi": "Vận hành chia sẻ doanh thu dài hạn",
+                        "en": "Long-term revenue-share operations"
                     },
                     "solutions.048": {
-                        "vi": "Trải nghiệm trực tiếp"
+                        "vi": "Trải nghiệm trực tiếp",
+                        "en": "Try it yourself"
                     },
                     "solutions.049": {
-                        "vi": "Khảo sát & demo tại Living Lab"
+                        "vi": "Khảo sát & demo tại Living Lab",
+                        "en": "Survey & demo at the Living Lab"
                     },
                     "solutions.050": {
-                        "vi": "Lập dự phóng chi tiết theo diện tích 50 – 300 m²"
+                        "vi": "Lập dự phóng chi tiết theo diện tích 50 – 300 m²",
+                        "en": "Detailed forecast for 50 – 300 m² spaces"
                     }
                 },
                 "images": [],
@@ -1618,25 +1893,32 @@
                 "template": "text.tablet",
                 "fields": {
                     "tablet.001": {
-                        "vi": "Mô phỏng Tablet điều khiển"
+                        "vi": "Mô phỏng Tablet điều khiển",
+                        "en": "Tablet control simulator"
                     },
                     "tablet.002": {
-                        "vi": "Holomia Journey - Di sản"
+                        "vi": "Holomia Journey - Di sản",
+                        "en": "Holomia Journey - Heritage"
                     },
                     "tablet.003": {
-                        "vi": "Omega Arena - Giải trí"
+                        "vi": "Omega Arena - Giải trí",
+                        "en": "Omega Arena - Entertainment"
                     },
                     "tablet.004": {
-                        "vi": "Kính sẵn sàng"
+                        "vi": "Kính sẵn sàng",
+                        "en": "Headsets ready"
                     },
                     "tablet.005": {
-                        "vi": "Phiên đang chạy"
+                        "vi": "Phiên đang chạy",
+                        "en": "Live sessions"
                     },
                     "tablet.006": {
-                        "vi": "Lượt hoàn thành"
+                        "vi": "Lượt hoàn thành",
+                        "en": "Completed guests"
                     },
                     "tablet.007": {
-                        "vi": "Chế độ vận hành"
+                        "vi": "Chế độ vận hành",
+                        "en": "Operating mode"
                     }
                 },
                 "images": [],
@@ -1649,16 +1931,20 @@
                 "template": "text.venue",
                 "fields": {
                     "venue.001": {
-                        "vi": "KHAI THÁC THEO KHUNG GIỜ"
+                        "vi": "KHAI THÁC THEO KHUNG GIỜ",
+                        "en": "USE BY TIME OF DAY"
                     },
                     "venue.002": {
-                        "vi": "Một mặt bằng, hai cách khai thác"
+                        "vi": "Một mặt bằng, hai cách khai thác",
+                        "en": "One floor, two ways to earn"
                     },
                     "venue.003": {
-                        "vi": "Đón khách khám phá di sản với Holomia Journey và tổ chức phiên giải trí nhóm với Omega Arena trên cùng mặt bằng tương thích."
+                        "vi": "Đón khách khám phá di sản với Holomia Journey và tổ chức phiên giải trí nhóm với Omega Arena trên cùng mặt bằng tương thích.",
+                        "en": "Welcome heritage explorers with Holomia Journey and run group entertainment with Omega Arena on the same compatible floor."
                     },
                     "venue.004": {
-                        "vi": "Bảng điều khiển mô phỏng · Chọn chế độ"
+                        "vi": "Bảng điều khiển mô phỏng · Chọn chế độ",
+                        "en": "Simulated dashboard · Choose a mode"
                     },
                     "venue.005": {
                         "vi": "Holomia Journey"
@@ -1667,16 +1953,20 @@
                         "vi": "Omega Arena"
                     },
                     "venue.007": {
-                        "vi": "Tệp khách chính"
+                        "vi": "Tệp khách chính",
+                        "en": "Main audience"
                     },
                     "venue.008": {
-                        "vi": "Nhịp vận hành"
+                        "vi": "Nhịp vận hành",
+                        "en": "Operating rhythm"
                     },
                     "venue.009": {
-                        "vi": "Chuyển đổi chế độ"
+                        "vi": "Chuyển đổi chế độ",
+                        "en": "Mode switching"
                     },
                     "venue.010": {
-                        "vi": "Chuyển đổi cách khai thác mặt bằng"
+                        "vi": "Chuyển đổi cách khai thác mặt bằng",
+                        "en": "Switch how the floor is used"
                     }
                 },
                 "images": [],
@@ -1692,49 +1982,57 @@
                     "img.case_landmark": {
                         "path": "uploads/case_landmark_venue_1795398225706.jpg",
                         "alt": {
-                            "vi": "Mặt bằng Landmark 81"
+                            "vi": "Mặt bằng Landmark 81",
+                            "en": "Landmark 81 venue"
                         }
                     },
                     "img.case_son_doong": {
                         "path": "uploads/case_son_doong_1795398226885.jpg",
                         "alt": {
-                            "vi": "Hang Sơn Đoòng VR"
+                            "vi": "Hang Sơn Đoòng VR",
+                            "en": "Son Doong Cave in VR"
                         }
                     },
                     "img.case_truong_son": {
                         "path": "uploads/case_truong_son_1795398226173.jpg",
                         "alt": {
-                            "vi": "Trải nghiệm Trường Sơn"
+                            "vi": "Trải nghiệm Trường Sơn",
+                            "en": "Truong Son experience"
                         }
                     },
                     "img.case_vov": {
                         "path": "uploads/case_vov_event_1795398226348.jpg",
                         "alt": {
-                            "vi": "Sự kiện VR quy mô lớn"
+                            "vi": "Sự kiện VR quy mô lớn",
+                            "en": "Large-scale VR event"
                         }
                     },
                     "img.floorplan_blueprint": {
                         "path": "uploads/arena_floorplan_blueprint_1795398914491.jpg",
                         "alt": {
-                            "vi": "Sơ đồ mặt bằng arena"
+                            "vi": "Sơ đồ mặt bằng arena",
+                            "en": "Arena floor plan"
                         }
                     },
                     "img.hardware_kit": {
                         "path": "uploads/vr_hardware_kit_1795398913943.jpg",
                         "alt": {
-                            "vi": "Bộ thiết bị VR Holomia"
+                            "vi": "Bộ thiết bị VR Holomia",
+                            "en": "Holomia VR hardware kit"
                         }
                     },
                     "img.hero_arena": {
                         "path": "uploads/hero_vr_arena_1795398226207.jpg",
                         "alt": {
-                            "vi": "Đấu trường VR không dây Holomia"
+                            "vi": "Đấu trường VR không dây Holomia",
+                            "en": "Holomia wireless VR arena"
                         }
                     },
                     "img.platform_video_tablet": {
                         "path": "uploads/platform_video_tablet_1795401954033.jpg",
                         "alt": {
-                            "vi": "Tablet điều phối 100 kính"
+                            "vi": "Tablet điều phối 100 kính",
+                            "en": "Tablet controlling 100 headsets"
                         }
                     },
                     "img.showroom_lab": {
@@ -1746,31 +2044,36 @@
                     "img.thumb_custom": {
                         "path": "uploads/thumb_solution_custom_1795401954687.jpg",
                         "alt": {
-                            "vi": "Giải pháp dự án riêng"
+                            "vi": "Giải pháp dự án riêng",
+                            "en": "Solution for custom projects"
                         }
                     },
                     "img.thumb_event": {
                         "path": "uploads/thumb_solution_event_1795401953196.jpg",
                         "alt": {
-                            "vi": "Giải pháp cho sự kiện"
+                            "vi": "Giải pháp cho sự kiện",
+                            "en": "Solution for events"
                         }
                     },
                     "img.thumb_venue": {
                         "path": "uploads/thumb_solution_venue_1795401954537.jpg",
                         "alt": {
-                            "vi": "Giải pháp cho mặt bằng"
+                            "vi": "Giải pháp cho mặt bằng",
+                            "en": "Solution for venues"
                         }
                     },
                     "venue.arena": {
                         "path": "uploads/case_landmark_venue_1795398225706.jpg",
                         "alt": {
-                            "vi": "Đấu trường nhóm không dây Omega Arena"
+                            "vi": "Đấu trường nhóm không dây Omega Arena",
+                            "en": "Wireless Omega Arena group arena"
                         }
                     },
                     "venue.journey": {
                         "path": "uploads/case_son_doong_1795398226885.jpg",
                         "alt": {
-                            "vi": "Trải nghiệm di sản Holomia Journey theo tuyến"
+                            "vi": "Trải nghiệm di sản Holomia Journey theo tuyến",
+                            "en": "Holomia Journey heritage experience by route"
                         }
                     }
                 },
@@ -1791,19 +2094,23 @@
                         "kind": "location",
                         "fields": {
                             "city": {
-                                "vi": "Hà Nội"
+                                "vi": "Hà Nội",
+                                "en": "Hanoi"
                             },
                             "name": {
-                                "vi": "Holomia Living Lab — Trụ sở chính"
+                                "vi": "Holomia Living Lab — Trụ sở chính",
+                                "en": "Holomia Living Lab — Headquarters"
                             },
                             "address": {
-                                "vi": "Tầng 6, Viwaseen Tower, 48 Tố Hữu, P. Đại Mỗ, Hà Nội"
+                                "vi": "Tầng 6, Viwaseen Tower, 48 Tố Hữu, P. Đại Mỗ, Hà Nội",
+                                "en": "6th floor, Viwaseen Tower, 48 To Huu, Dai Mo Ward, Hanoi"
                             },
                             "hours": {
-                                "vi": "Thứ 2 – Thứ 7 · 08:30 – 17:30"
+                                "vi": "Thứ 2 – Thứ 7 · 08:30 – 17:30",
+                                "en": "Mon – Sat · 08:30 – 17:30"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 0,
@@ -1813,19 +2120,23 @@
                         "kind": "location",
                         "fields": {
                             "city": {
-                                "vi": "TP. Hồ Chí Minh"
+                                "vi": "TP. Hồ Chí Minh",
+                                "en": "Ho Chi Minh City"
                             },
                             "name": {
-                                "vi": "Holomia Living Lab — Miền Nam"
+                                "vi": "Holomia Living Lab — Miền Nam",
+                                "en": "Holomia Living Lab — South"
                             },
                             "address": {
-                                "vi": "Khu trải nghiệm Đối tác B2B, Quận 1, TP. Hồ Chí Minh"
+                                "vi": "Khu trải nghiệm Đối tác B2B, Quận 1, TP. Hồ Chí Minh",
+                                "en": "B2B partner experience space, District 1, Ho Chi Minh City"
                             },
                             "hours": {
-                                "vi": "Đặt lịch theo khung giờ"
+                                "vi": "Đặt lịch theo khung giờ",
+                                "en": "Book by time slot"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 1,
@@ -1848,13 +2159,15 @@
                                 "vi": "2015 – 2018"
                             },
                             "title": {
-                                "vi": "Nền móng R&D XR"
+                                "vi": "Nền móng R&D XR",
+                                "en": "XR R&D foundations"
                             },
                             "detail": {
-                                "vi": "Nghiên cứu nội dung 3D tương tác và hệ thống mô phỏng."
+                                "vi": "Nghiên cứu nội dung 3D tương tác và hệ thống mô phỏng.",
+                                "en": "Research into interactive 3D content and simulation systems."
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 0,
@@ -1867,13 +2180,15 @@
                                 "vi": "2019 – 2022"
                             },
                             "title": {
-                                "vi": "Thương mại hóa & VR5D/9D"
+                                "vi": "Thương mại hóa & VR5D/9D",
+                                "en": "Commercialisation & VR5D/9D"
                             },
                             "detail": {
-                                "vi": "Triển khai cụm VR thương mại và mô phỏng di sản."
+                                "vi": "Triển khai cụm VR thương mại và mô phỏng di sản.",
+                                "en": "Rolled out commercial VR clusters and heritage simulators."
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 1,
@@ -1889,10 +2204,11 @@
                                 "vi": "Holomia Platform & VR Kit"
                             },
                             "detail": {
-                                "vi": "Điều phối 1 Tablet nhiều kính cho Meta và chuỗi VOV."
+                                "vi": "Điều phối 1 Tablet nhiều kính cho Meta và chuỗi VOV.",
+                                "en": "One tablet controlling many headsets for Meta and the VOV event series."
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 2,
@@ -1905,13 +2221,15 @@
                                 "vi": "2025 – Nay"
                             },
                             "title": {
-                                "vi": "Mở rộng & Xuất khẩu"
+                                "vi": "Mở rộng & Xuất khẩu",
+                                "en": "Expansion & Export"
                             },
                             "detail": {
-                                "vi": "Vận hành Landmark 81, Lotte Center, T20 Quảng Trị."
+                                "vi": "Vận hành Landmark 81, Lotte Center, T20 Quảng Trị.",
+                                "en": "Operating Landmark 81, Lotte Center and T20 Quang Tri."
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 3,
@@ -1923,7 +2241,8 @@
                 "template": "footprints",
                 "fields": {
                     "heading": {
-                        "vi": "Cấu hình đề xuất"
+                        "vi": "Cấu hình đề xuất",
+                        "en": "Recommended configuration"
                     }
                 },
                 "images": [],
@@ -1938,19 +2257,22 @@
                                 "vi": "50 m²"
                             },
                             "players": {
-                                "vi": "6 – 8 kính"
+                                "vi": "6 – 8 kính",
+                                "en": "6 – 8 headsets"
                             },
                             "power": {
                                 "vi": "1.5 kW"
                             },
                             "throughput": {
-                                "vi": "600+ lượt/ngày"
+                                "vi": "600+ lượt/ngày",
+                                "en": "600+ guests/day"
                             },
                             "idealFor": {
-                                "vi": "Góc TTTM · Sự kiện"
+                                "vi": "Góc TTTM · Sự kiện",
+                                "en": "Mall corner · Events"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 0,
@@ -1963,19 +2285,21 @@
                                 "vi": "120 m²"
                             },
                             "players": {
-                                "vi": "12 – 15 kính"
+                                "vi": "12 – 15 kính",
+                                "en": "12 – 15 headsets"
                             },
                             "power": {
                                 "vi": "2.0 kW"
                             },
                             "throughput": {
-                                "vi": "1.500+ lượt/ngày"
+                                "vi": "1.500+ lượt/ngày",
+                                "en": "1,500+ guests/day"
                             },
                             "idealFor": {
                                 "vi": "Landmark 81 · Arena"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 1,
@@ -1988,19 +2312,22 @@
                                 "vi": "300 m²"
                             },
                             "players": {
-                                "vi": "24 – 100 kính"
+                                "vi": "24 – 100 kính",
+                                "en": "24 – 100 headsets"
                             },
                             "power": {
                                 "vi": "3.5 kW"
                             },
                             "throughput": {
-                                "vi": "2.000+ lượt/ngày"
+                                "vi": "2.000+ lượt/ngày",
+                                "en": "2,000+ guests/day"
                             },
                             "idealFor": {
-                                "vi": "Sự kiện quốc gia"
+                                "vi": "Sự kiện quốc gia",
+                                "en": "National events"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 2,
@@ -2020,13 +2347,14 @@
                         "kind": "spec",
                         "fields": {
                             "label": {
-                                "vi": "Mặt bằng"
+                                "vi": "Mặt bằng",
+                                "en": "Floor area"
                             },
                             "value": {
                                 "vi": "50 – 300 m²"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 0,
@@ -2036,13 +2364,15 @@
                         "kind": "spec",
                         "fields": {
                             "label": {
-                                "vi": "Thiết bị"
+                                "vi": "Thiết bị",
+                                "en": "Devices"
                             },
                             "value": {
-                                "vi": "Không dây · Không ba lô"
+                                "vi": "Không dây · Không ba lô",
+                                "en": "Wireless · No backpack"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 1,
@@ -2052,13 +2382,15 @@
                         "kind": "spec",
                         "fields": {
                             "label": {
-                                "vi": "Điều phối"
+                                "vi": "Điều phối",
+                                "en": "Control"
                             },
                             "value": {
-                                "vi": "1 Tablet · 100 Kính"
+                                "vi": "1 Tablet · 100 Kính",
+                                "en": "1 tablet · 100 headsets"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 2,
@@ -2068,13 +2400,14 @@
                         "kind": "spec",
                         "fields": {
                             "label": {
-                                "vi": "Điện năng"
+                                "vi": "Điện năng",
+                                "en": "Power"
                             },
                             "value": {
                                 "vi": "~2.0 kW"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 3,
@@ -2094,7 +2427,8 @@
                         "kind": "shift",
                         "fields": {
                             "shift": {
-                                "vi": "Ca sáng (09:00 – 13:00)"
+                                "vi": "Ca sáng (09:00 – 13:00)",
+                                "en": "Morning shift (09:00 – 13:00)"
                             },
                             "mode": {
                                 "vi": "Holomia Journey"
@@ -2109,7 +2443,7 @@
                                 "vi": "100%"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 0,
@@ -2119,7 +2453,8 @@
                         "kind": "shift",
                         "fields": {
                             "shift": {
-                                "vi": "Ca chiều (13:30 – 17:30)"
+                                "vi": "Ca chiều (13:30 – 17:30)",
+                                "en": "Afternoon shift (13:30 – 17:30)"
                             },
                             "mode": {
                                 "vi": "Holomia Journey"
@@ -2134,7 +2469,7 @@
                                 "vi": "100%"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 1,
@@ -2144,7 +2479,8 @@
                         "kind": "shift",
                         "fields": {
                             "shift": {
-                                "vi": "Ca tối (18:00 – 22:00)"
+                                "vi": "Ca tối (18:00 – 22:00)",
+                                "en": "Evening shift (18:00 – 22:00)"
                             },
                             "mode": {
                                 "vi": "Omega Arena"
@@ -2159,7 +2495,7 @@
                                 "vi": "100%"
                             }
                         },
-                        "images": null,
+                        "images": [],
                         "link": null,
                         "icon": null,
                         "sort": 2,
@@ -2171,7 +2507,8 @@
                 "template": "videos",
                 "fields": {
                     "journeyVenue": {
-                        "vi": "Bưu điện Hà Nội · Sơn Đoòng"
+                        "vi": "Bưu điện Hà Nội · Sơn Đoòng",
+                        "en": "Hanoi Post Office · Son Doong"
                     },
                     "arenaVenue": {
                         "vi": "Landmark 81 · Lotte Center"
@@ -2180,13 +2517,16 @@
                         "vi": "00:18"
                     },
                     "playing": {
-                        "vi": "Đang phát tự động"
+                        "vi": "Đang phát tự động",
+                        "en": "Auto-playing"
                     },
                     "paused": {
-                        "vi": "Đã tạm dừng"
+                        "vi": "Đã tạm dừng",
+                        "en": "Paused"
                     },
                     "scene": {
-                        "vi": "Cảnh"
+                        "vi": "Cảnh",
+                        "en": "Scene"
                     }
                 },
                 "images": [],
@@ -2198,7 +2538,8 @@
                         "kind": "journey",
                         "fields": {
                             "caption": {
-                                "vi": "Tablet phát lệnh đồng loạt tới toàn bộ kính trong nhóm"
+                                "vi": "Tablet phát lệnh đồng loạt tới toàn bộ kính trong nhóm",
+                                "en": "Tablet launches all headsets in the group at once"
                             },
                             "timecode": {
                                 "vi": "00:00"
@@ -2208,7 +2549,8 @@
                             "image": {
                                 "path": "uploads/platform_video_tablet_1795401954033.jpg",
                                 "alt": {
-                                    "vi": "Tablet phát lệnh tới toàn bộ kính"
+                                    "vi": "Tablet phát lệnh tới toàn bộ kính",
+                                    "en": "Tablet launching every headset"
                                 }
                             }
                         },
@@ -2221,7 +2563,8 @@
                         "kind": "arena",
                         "fields": {
                             "caption": {
-                                "vi": "Chuyển sang sàn đấu không dây chỉ bằng 1 chạm trên Tablet"
+                                "vi": "Chuyển sang sàn đấu không dây chỉ bằng 1 chạm trên Tablet",
+                                "en": "Switch to the wireless arena with one tap on the tablet"
                             },
                             "timecode": {
                                 "vi": "00:00"
@@ -2231,7 +2574,8 @@
                             "image": {
                                 "path": "uploads/hero_vr_arena_1795398226207.jpg",
                                 "alt": {
-                                    "vi": "Sàn đấu không dây Omega Arena"
+                                    "vi": "Sàn đấu không dây Omega Arena",
+                                    "en": "Omega Arena wireless play floor"
                                 }
                             }
                         },
@@ -2244,7 +2588,8 @@
                         "kind": "journey",
                         "fields": {
                             "caption": {
-                                "vi": "Đoàn khách tham quan trải nghiệm đồng bộ theo lượt 5 phút"
+                                "vi": "Đoàn khách tham quan trải nghiệm đồng bộ theo lượt 5 phút",
+                                "en": "Visitors share a synchronised experience in 5-minute rounds"
                             },
                             "timecode": {
                                 "vi": "00:06"
@@ -2254,7 +2599,8 @@
                             "image": {
                                 "path": "uploads/case_vov_event_1795398226348.jpg",
                                 "alt": {
-                                    "vi": "Đoàn khách trải nghiệm đồng bộ"
+                                    "vi": "Đoàn khách trải nghiệm đồng bộ",
+                                    "en": "Group enjoying a synchronised experience"
                                 }
                             }
                         },
@@ -2267,7 +2613,8 @@
                         "kind": "arena",
                         "fields": {
                             "caption": {
-                                "vi": "Người chơi tự do di chuyển, đối kháng trực tiếp theo đội"
+                                "vi": "Người chơi tự do di chuyển, đối kháng trực tiếp theo đội",
+                                "en": "Players move freely and compete head-to-head in teams"
                             },
                             "timecode": {
                                 "vi": "00:06"
@@ -2277,7 +2624,8 @@
                             "image": {
                                 "path": "uploads/case_landmark_venue_1795398225706.jpg",
                                 "alt": {
-                                    "vi": "Người chơi đối kháng theo đội"
+                                    "vi": "Người chơi đối kháng theo đội",
+                                    "en": "Players competing in teams"
                                 }
                             }
                         },
@@ -2290,7 +2638,8 @@
                         "kind": "journey",
                         "fields": {
                             "caption": {
-                                "vi": "Tái hiện không gian Hang Sơn Đoòng & Di sản Việt Nam"
+                                "vi": "Tái hiện không gian Hang Sơn Đoòng & Di sản Việt Nam",
+                                "en": "Recreating Son Doong Cave and Vietnamese heritage"
                             },
                             "timecode": {
                                 "vi": "00:12"
@@ -2300,7 +2649,8 @@
                             "image": {
                                 "path": "uploads/case_son_doong_1795398226885.jpg",
                                 "alt": {
-                                    "vi": "Hang Sơn Đoòng & Di sản Việt Nam"
+                                    "vi": "Hang Sơn Đoòng & Di sản Việt Nam",
+                                    "en": "Son Doong Cave and Vietnamese heritage"
                                 }
                             }
                         },
@@ -2313,7 +2663,8 @@
                         "kind": "arena",
                         "fields": {
                             "caption": {
-                                "vi": "Sơ đồ mặt bằng tự định vị chính xác trong không gian 50–300 m²"
+                                "vi": "Sơ đồ mặt bằng tự định vị chính xác trong không gian 50–300 m²",
+                                "en": "Floor map with accurate self-positioning across 50–300 m²"
                             },
                             "timecode": {
                                 "vi": "00:12"
@@ -2323,7 +2674,8 @@
                             "image": {
                                 "path": "uploads/arena_floorplan_blueprint_1795398914491.jpg",
                                 "alt": {
-                                    "vi": "Sơ đồ mặt bằng tự định vị"
+                                    "vi": "Sơ đồ mặt bằng tự định vị",
+                                    "en": "Self-positioning floor map"
                                 }
                             }
                         },
@@ -2346,20 +2698,23 @@
                         "kind": "card",
                         "fields": {
                             "tag": {
-                                "vi": "01 · Mô phỏng"
+                                "vi": "01 · Mô phỏng",
+                                "en": "01 · Simulation"
                             },
                             "title": {
                                 "vi": "VR5D / VR9D"
                             },
                             "description": {
-                                "vi": "Đồng bộ chuyển động, gió và âm thanh vòm theo kịch bản di tích."
+                                "vi": "Đồng bộ chuyển động, gió và âm thanh vòm theo kịch bản di tích.",
+                                "en": "Motion, wind and surround sound synced to the historic site's script."
                             }
                         },
                         "images": {
                             "image": {
                                 "path": "uploads/case_truong_son_1795398226173.jpg",
                                 "alt": {
-                                    "vi": "Trải nghiệm Trường Sơn"
+                                    "vi": "Trải nghiệm Trường Sơn",
+                                    "en": "Truong Son experience"
                                 }
                             }
                         },
@@ -2372,20 +2727,23 @@
                         "kind": "card",
                         "fields": {
                             "tag": {
-                                "vi": "02 · Di động"
+                                "vi": "02 · Di động",
+                                "en": "02 · Portable"
                             },
                             "title": {
                                 "vi": "Vali VR Kit"
                             },
                             "description": {
-                                "vi": "Đóng gói gọn trong vali chống sốc, mở ra trình chiếu ngay tại hội chợ quốc tế."
+                                "vi": "Đóng gói gọn trong vali chống sốc, mở ra trình chiếu ngay tại hội chợ quốc tế.",
+                                "en": "Packed in a shockproof case; open it and present right away at international fairs."
                             }
                         },
                         "images": {
                             "image": {
                                 "path": "uploads/case_son_doong_1795398226885.jpg",
                                 "alt": {
-                                    "vi": "Hang Sơn Đoòng VR"
+                                    "vi": "Hang Sơn Đoòng VR",
+                                    "en": "Son Doong Cave in VR"
                                 }
                             }
                         },
@@ -2398,20 +2756,24 @@
                         "kind": "card",
                         "fields": {
                             "tag": {
-                                "vi": "03 · Bảo tồn"
+                                "vi": "03 · Bảo tồn",
+                                "en": "03 · Preservation"
                             },
                             "title": {
-                                "vi": "Số hóa Di sản"
+                                "vi": "Số hóa Di sản",
+                                "en": "Heritage digitisation"
                             },
                             "description": {
-                                "vi": "Tái hiện công trình lịch sử và hang động với thuyết minh đa ngôn ngữ."
+                                "vi": "Tái hiện công trình lịch sử và hang động với thuyết minh đa ngôn ngữ.",
+                                "en": "Recreating historic structures and caves with multilingual narration."
                             }
                         },
                         "images": {
                             "image": {
                                 "path": "uploads/case_vov_event_1795398226348.jpg",
                                 "alt": {
-                                    "vi": "Sự kiện VR quy mô lớn"
+                                    "vi": "Sự kiện VR quy mô lớn",
+                                    "en": "Large-scale VR event"
                                 }
                             }
                         },

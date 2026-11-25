@@ -1,3 +1,4 @@
+import { useTr } from '../lib/locale';
 import { Tx, AddItem, GlobalSection, ImageControl, ItemScope, ItemTools, resolve, SectionData, SectionImg, T, useEditor, useItems } from '../lib/editor';
 import React, { useEffect, useState } from 'react';
 import { Compass, Crosshair, Pause, Play, Tablet } from 'lucide-react';
@@ -8,6 +9,7 @@ import { TabletSimulator } from './TabletSimulator';
 const Showcase: React.FC<{ section: SectionData }> = ({ section }) => {
   const { t } = useCms();
   const { editing, locale } = useEditor();
+  const tr = useTr();
   const [viewType, setViewType] = useState<'video' | 'interactive'>('video');
   const [mode, setMode] = useState<PlatformModeId>('journey');
   const [isPlaying, setIsPlaying] = useState(true);
@@ -135,7 +137,7 @@ const Showcase: React.FC<{ section: SectionData }> = ({ section }) => {
         <button
           type="button"
           onClick={() => setIsPlaying((prev) => !prev)}
-          aria-label={isPlaying ? 'Tạm dừng video' : 'Phát video'}
+          aria-label={isPlaying ? tr('Tạm dừng video', 'Pause') : tr('Phát video', 'Play')}
           className={`absolute inset-0 flex items-center justify-center transition-opacity cursor-pointer ${
             isPlaying ? 'opacity-0 group-hover:opacity-100' : 'opacity-100'
           }`}

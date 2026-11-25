@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { router } from '@inertiajs/react';
+import { usePaths } from './lib/locale';
 import { AppRoute, LeadModalType } from './types/holomia';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -23,11 +24,12 @@ export const ROUTE_URLS: Record<AppRoute, string> = {
 };
 
 export function App({ route: currentRoute }: { route: AppRoute }) {
+  const { localize } = usePaths();
   const [modalType, setModalType] = useState<LeadModalType>(null);
   const [modalContext, setModalContext] = useState<string | undefined>(undefined);
 
   const handleNavigate = (route: AppRoute) => {
-    router.visit(ROUTE_URLS[route]);
+    router.visit(localize(ROUTE_URLS[route]));
   };
 
   const handleOpenModal = (type: LeadModalType, summary?: string) => {
