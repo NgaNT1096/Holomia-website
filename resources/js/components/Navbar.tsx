@@ -1,3 +1,4 @@
+import { Brand } from './Brand';
 import React, { useEffect, useRef, useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { AppRoute } from '../types/holomia';
@@ -63,8 +64,7 @@ const NavbarContent: React.FC<NavbarProps & { section: SectionData }> = ({ onNav
           onClick={() => !editing && onNavigate('home')}
           className="text-xl font-extrabold tracking-tight text-white whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00E5FF] rounded"
         >
-          H<span className="text-[#00E5FF]">O</span>
-          <T k="header.brand" d="LOMIA" />
+          <Brand k="header.brand" />
         </button>
 
         <nav aria-label={tr('Điều hướng chính', 'Main navigation')} className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">

@@ -17,14 +17,14 @@ function Counter({ progress }: { progress: number }) {
   const animated = /^[0-9.,]+$/.test(value) ? Math.max(1, Math.round(target * progress)).toLocaleString(numberLocale) : value;
 
   return (
-    <div className="bg-[#0F172A]/70 border border-white/10 rounded-xl px-5 py-4 h-full">
-      <div className="text-2xl sm:text-3xl font-extrabold font-mono-num text-[#00E5FF] tracking-tight whitespace-nowrap">
+    <div className="bg-[#0F172A]/70 border border-white/10 rounded-xl px-4 sm:px-5 py-4 h-full min-w-0">
+      <div className="text-xl sm:text-3xl font-extrabold font-mono-num text-[#00E5FF] tracking-tight break-words">
         {editing ? <T k="value" /> : animated}
         {/* "100 Kính" has a space, "2.000+" does not. */}
         {/^\p{L}/u.test(field('suffix')) && ' '}
         <T k="suffix" />
       </div>
-      <p className="text-xs sm:text-sm text-slate-300 mt-1 whitespace-nowrap truncate">
+      <p className="text-xs sm:text-sm text-slate-300 mt-1">
         <T k="label" />
       </p>
     </div>

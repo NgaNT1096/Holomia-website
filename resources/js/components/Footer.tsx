@@ -1,3 +1,4 @@
+import { Brand } from './Brand';
 import React from 'react';
 import { Phone, Mail, MapPin, ArrowUpRight } from 'lucide-react';
 import { AppRoute, LeadModalType } from '../types/holomia';
@@ -31,8 +32,7 @@ const FooterContent: React.FC<FooterProps & { section: SectionData }> = ({ onNav
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
           <div className="lg:col-span-4 space-y-3">
             <div className="text-xl font-extrabold tracking-tight text-white">
-              H<span className="text-[#00E5FF]">O</span>
-              <T k="footer.brand" d="LOMIA" />
+              <Brand k="footer.brand" />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
               <T k="footer.about" />

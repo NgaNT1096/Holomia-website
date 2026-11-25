@@ -39,6 +39,7 @@ class HandleInertiaRequests extends Middleware
             ...parent::share($request),
             'cms' => fn () => \App\Support\SiteData::all(app()->getLocale()),
             'locale' => fn () => app()->getLocale(),
+            'logo' => fn () => \App\Models\Setting::logoUrl(),
             'paths' => fn () => array_values(array_map(
                 fn ($r) => ['vi' => $r['vi']['path'], 'en' => $r['en']['path']], config('site_routes')
             )),

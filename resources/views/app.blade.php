@@ -14,6 +14,10 @@
         <meta property="og:title" content="{{ $seo['title'] }}">
         <meta property="og:description" content="{{ $seo['description'] }}">
         <meta property="og:type" content="website">
+        @if ($seo['favicon'])
+            <link rel="icon" href="{{ $seo['favicon'] }}">
+            <link rel="apple-touch-icon" href="{{ $seo['favicon'] }}">
+        @endif
     @endisset
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -27,6 +27,8 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            // Same icon as the public site (set under "Tiêu đề & favicon").
+            ->favicon(fn () => \App\Models\Setting::faviconUrl())
             ->navigationItems([
                 // All page content is edited directly on the website.
                 \Filament\Navigation\NavigationItem::make('Sửa trên website')

@@ -83,3 +83,40 @@ input[type="range"].holomia-slider::-moz-range-thumb {
 :is(h1, h2, h3, p, li):empty {
   display: none;
 }
+
+/* Partner logos on phones: two identical sets slide left, so the loop has no seam. */
+.partner-marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+.partner-track {
+  display: flex;
+  width: max-content;
+  animation: partner-scroll linear infinite;
+}
+.partner-set {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding-right: 2.5rem;
+}
+.partner-marquee:active .partner-track {
+  animation-play-state: paused;
+}
+@keyframes partner-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+/* No automatic motion for people who turned it off: swipe instead. */
+@media (prefers-reduced-motion: reduce) {
+  .partner-marquee {
+    overflow-x: auto;
+  }
+  .partner-track {
+    animation: none;
+  }
+  .partner-set[aria-hidden='true'] {
+    display: none;
+  }
+}

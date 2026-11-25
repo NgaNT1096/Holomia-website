@@ -94,18 +94,45 @@ function Logo({ item, tone }: { item: ItemData; tone: string }) {
   );
 }
 
-/** Partner list of the home "partners" section, also reused on the About page. */
+/**
+ * Partner list of the home "partners" section, also reused on the About page.
+ * Phones: one row that scrolls by itself. Wider screens (and edit mode): a grid.
+ */
 export const PartnerList: React.FC<PartnerLogosProps & { items: ItemData[] }> = ({ variant = 'dark', items }) => {
+  const { editing } = useEditor();
   const tone = variant === 'dark' ? 'text-slate-400 hover:text-white' : 'text-slate-600 hover:text-[#0B0F19]';
 
+  const entry = (item: ItemData, key: React.Key = item.id) => (
+    <Item key={key} item={item} inline imageKey="logo">
+      <Logo item={item} tone={tone} />
+    </Item>
+  );
+
+  const grid = (className: string) => <div className={className}>{items.map((item) => entry(item))}</div>;
+  const columns = 'grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-6 items-center';
+
+  if (editing) return grid(`grid ${columns}`);
+
+  // Repeat short lists so one set is always wider than a phone screen.
+  const set = items.length ? Array.from({ length: Math.ceil(6 / items.length) }, () => items).flat() : [];
+
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-6 items-center">
-      {items.map((item) => (
-        <Item key={item.id} item={item} inline imageKey="logo">
-          <Logo item={item} tone={tone} />
-        </Item>
-      ))}
-    </div>
+    <>
+      <div className="partner-marquee sm:hidden">
+        <div className="partner-track" style={{ animationDuration: `${set.length * 3}s` }}>
+          {[0, 1].map((copy) => (
+            <div key={copy} className="partner-set" aria-hidden={copy === 1}>
+              {set.map((item, i) => (
+                <div key={i} className="shrink-0">
+                  {entry(item)}
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+      {grid(`hidden sm:grid ${columns}`)}
+    </>
   );
 };
 
