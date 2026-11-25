@@ -1,0 +1,36 @@
+[
+  {
+    "id": "standard",
+    "name": "Standard",
+    "scale": "6 kính · 1 Tablet",
+    "capacityPerDay": "600 – 800 lượt/ngày",
+    "staffing": "2 nhân sự",
+    "contentIncluded": "1 nội dung",
+    "twoDayPrice": "50 triệu đ",
+    "extraDayPrice": "15 triệu đ",
+    "recommendedFor": "Hội chợ, ra mắt sản phẩm."
+  },
+  {
+    "id": "pro",
+    "name": "Pro",
+    "scale": "12 kính · 2 cụm",
+    "capacityPerDay": "1.200 – 1.800 lượt/ngày",
+    "staffing": "3 nhân sự",
+    "contentIncluded": "2 nội dung",
+    "twoDayPrice": "85 triệu đ",
+    "extraDayPrice": "22 triệu đ",
+    "recommendedFor": "Lễ hội thương hiệu, roadshow.",
+    "highlighted": true
+  },
+  {
+    "id": "mega",
+    "name": "Mega",
+    "scale": "20–30 kính · Đa khu",
+    "capacityPerDay": "2.500 – 4.000 lượt/ngày",
+    "staffing": "5–6 nhân sự",
+    "contentIncluded": "2–3 nội dung",
+    "twoDayPrice": "150 triệu đ",
+    "extraDayPrice": "35 triệu đ",
+    "recommendedFor": "Sự kiện quốc gia, triển lãm lớn."
+  }
+]

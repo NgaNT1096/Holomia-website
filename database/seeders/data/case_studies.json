@@ -1,0 +1,78 @@
+[
+  {
+    "id": "vov-event",
+    "category": "event",
+    "categoryLabel": "Sự kiện lưu lượng lớn",
+    "title": "Chuỗi sự kiện VOV",
+    "subtitle": "Hà Nội · TP.HCM · Đà Nẵng · Đắk Lắk",
+    "location": "4 thành phố",
+    "headlineMetric": "1.500–2.000 khách/ngày",
+    "image": "/images/case_vov_event_1795398226348.jpg",
+    "imageAlt": "Khách tham quan trải nghiệm VR đồng bộ tại sự kiện VOV",
+    "featuredSpan": "wide",
+    "problem": "Khách xếp hàng ùn tắc khi cài đặt thủ công từng kính tại sự kiện đông.",
+    "solution": "Điều phối theo nhóm 5–15 khách từ 1 Tablet, mỗi phiên 5 phút xoay vòng liên tục.",
+    "results": [
+      "1.500–2.000 lượt khách/ngày",
+      "Xoay vòng dưới 45 giây",
+      "Chỉ cần 3 nhân sự vận hành"
+    ]
+  },
+  {
+    "id": "oxalis-son-doong",
+    "category": "heritage",
+    "categoryLabel": "Du lịch & Di sản",
+    "title": "Oxalis · Sơn Đoòng",
+    "subtitle": "Quảng Bình & Quốc tế",
+    "location": "Quảng Bình",
+    "headlineMetric": "VR5D & 3 Vali VR Kit",
+    "image": "/images/case_son_doong_1795398226885.jpg",
+    "imageAlt": "Vali VR Kit và không gian tái hiện Hang Sơn Đoòng",
+    "featuredSpan": "standard",
+    "problem": "Hang Sơn Đoòng giới hạn khách, khó mang trải nghiệm ra hội chợ quốc tế.",
+    "solution": "Đóng gói hệ thống VR5D và 3 bộ Vali VR Kit gọn nhẹ, mở vali ra là trình chiếu ngay.",
+    "results": [
+      "3 Vali VR Kit lưu diễn toàn cầu",
+      "Tái hiện ánh sáng, gió & hang động",
+      "Tăng lượt đặt tour Phong Nha"
+    ]
+  },
+  {
+    "id": "t20-quang-tri",
+    "category": "heritage",
+    "categoryLabel": "Du lịch & Di sản",
+    "title": "T20 Quảng Trị",
+    "subtitle": "Hang Chỉ Huy",
+    "location": "Quảng Trị",
+    "headlineMetric": "Xe VR9D Đường Trường Sơn",
+    "image": "/images/case_truong_son_1795398226173.jpg",
+    "imageAlt": "Hệ thống mô phỏng Xe VR9D Đường Trường Sơn tại Hang Chỉ Huy",
+    "featuredSpan": "standard",
+    "problem": "Cần kể chuyện lịch sử sống động mà giữ nguyên trạng hang đá tự nhiên.",
+    "solution": "Lắp đặt Xe mô phỏng chuyển động VR9D gọn trong hang với chế độ 1 chạm.",
+    "results": [
+      "Thu hút đông đảo đoàn du khách",
+      "Chạy bền bỉ trong môi trường hang đá",
+      "Ban quản lý tự vận hành dễ dàng"
+    ]
+  },
+  {
+    "id": "landmark-lotte",
+    "category": "venue",
+    "categoryLabel": "Điểm đến thương mại",
+    "title": "Landmark 81 & Lotte Center",
+    "subtitle": "TP.HCM & Hà Nội",
+    "location": "TTTM Cao cấp",
+    "headlineMetric": "Rev-share dài hạn",
+    "image": "/images/case_landmark_venue_1795398225706.jpg",
+    "imageAlt": "Sàn đấu Omega Arena tại Landmark 81 và Lotte Center",
+    "featuredSpan": "wide",
+    "problem": "TTTM cần khu giải trí gọn, đón cả gia đình ban ngày lẫn giới trẻ cuối tuần.",
+    "solution": "Vận hành kép không dây: Journey ban ngày, Omega Arena giờ cao điểm.",
+    "results": [
+      "Doanh thu kép trên cùng diện tích",
+      "Không dây, không ba lô nặng",
+      "Đối soát doanh thu theo ca (70/30)"
+    ]
+  }
+]
